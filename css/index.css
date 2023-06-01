@@ -14,6 +14,13 @@ a{text-decoration: none;}
 }
 
 @font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'NanumBarunGothic';
     font-style: normal;
     font-weight: 400;
@@ -184,7 +191,7 @@ transform: rotate(-45deg) translateY(-14px);
 }
 
 .main .floating3{
-    width: 610px;
+    width: 650px;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -315,18 +322,18 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 }
 
 
-
 .section .about-wrap .intro h3{
     width: 220px;
     height: 50px;
     background-color: #fff;
     border: 2.5px solid #383858;
     border-radius: 50px;
-    font-size: 32px;
+    font-size: 36px;
     position: absolute;
     top: -30px;
     left: -5px;
-    font-family: 'yg-jalnan'; 
+    font-family: 'PyeongChangPeace-Bold'; 
+    line-height: 50px;
     color: #383858;
     text-align: center;
 }
@@ -336,9 +343,9 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 }
 
 .section .about-wrap .intro p{
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
-    margin-top: 10px;  
+    margin-top: 5px;  
     margin-left: 30px;
 }
 
@@ -346,7 +353,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 .section .about-wrap .intro p:last-of-type{
     margin-top: 20px;
     font-size: 20px;
-    grid: column fw 600px;;
+    font-size: 16px;
 }
 
 .section .about-wrap .intro-1{
@@ -367,7 +374,49 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     height: 220px;
     margin-top: 130px;
     margin-left: 50px;
+    position: relative;
 }
+
+.section .about-wrap .keyword h3{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'yg-jalnan'; 
+    color: #383858;
+    text-align: center;
+}
+
+.section .about-wrap .keyword a{
+   display: block;
+   margin-top: 10px;
+   height: 40px;
+   width: 130px;
+   padding-left: 20px;
+   border: 2px solid #383858;
+   border-radius: 50px;
+   margin-left: 10px;
+   line-height: 40px;
+   color: #fff;
+   font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-family:'PyeongChangPeace-Bold' ;
+
+}
+
+.section .about-wrap .keyword1{
+    background-color: #eeb073;
+}
+
+.section .about-wrap .keyword2{
+    background-color: #67947d;
+    padding-left: 30px;
+
+}
+.section .about-wrap .keyword3{
+    background-color: #f58aa0;
+}
+
 
 .section .about-wrap .keyword-1{
     width: 210px;
@@ -392,6 +441,36 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     margin-left: 120px;
 }
 
+.section .about-wrap .cv h3{
+    font-family:'PyeongChangPeace-Bold' ;
+    color: #383858;
+    font-size: 32px;  
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.section .about-wrap .cv a{
+    display: block;
+    width: 120px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border: 2px solid #383858;
+    background-color: #fff;
+    font-family:'PyeongChangPeace-Bold' ;
+    color: #383858;
+}
+
+.section .about-wrap .cv a:hover{
+    background-color: #f58aa0;
+    transition: 0.3s;
+}
+
 .section .about-wrap .cv-1{
     width: 210px;
     height: 110px;
@@ -409,12 +488,25 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     margin-left: 80px;
 }
 
-
+.section .about-wrap .name .name-wrap{
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.section .about-wrap .name h3{
+    font-size: 25px;
+    font-family:'PyeongChangPeace-Bold' ;
+    color: #383858;
+}
+.section .about-wrap .name p{
+    font-size: 16px;
+    margin-top: 10px;
+}
 
 .section .about-wrap .name-1{
     width: 460px;
     height: 250px;
     background-color: #67947d;
+
     position: absolute;
     top: 450px;
     left: 445px;
@@ -427,6 +519,51 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     height: 220px;
     margin-left: 70px;
 }
+
+
+.section .about-wrap .skill h3{
+    font-size: 27px;
+    color: #383858;
+    font-family: 'yg-jalnan';
+}
+
+.section .about-wrap .skill .skill-wrap{
+    margin-left: 20px;
+
+}
+
+.section .about-wrap .skill p{
+    background-color: #fff;
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: 17px solid #000;
+    font-family:'PyeongChangPeace-Bold' ;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.section .about-wrap .skill .ps,
+.section .about-wrap .skill .js{
+border-color: #67947d;
+}
+
+.section .about-wrap .skill .ai,
+.section .about-wrap .skill .html{
+    border-color: #eeb073;
+}
+
+.section .about-wrap .skill .css{
+    border-color: #f58aa0;
+}
+
+.section .about-wrap .skill .ckill-code{
+    clear: both;
+}
+
 
 .section .about-wrap .skill-1{
     width: 270px;
@@ -449,6 +586,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 .work{
     width: 100%;
     position: relative;
+    margin-top: 70px;
 }
 .wrap{
     width: 1217px;
@@ -462,7 +600,8 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    margin-top: 70px;
     
 }
 
@@ -570,6 +709,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 .clone{
     width: 100%;
+    margin-top: 70px;
 }
 .section  .swiper-slide img{
     width: 100%;
@@ -666,6 +806,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 /* contact 시작 */
 .contact{
     width: 100%;
+    margin-top: 150px;
 }
 
 .contact .contact-wrap{
