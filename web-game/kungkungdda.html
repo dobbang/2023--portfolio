@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쿵쿵따</title>
+</head>
+<body>
+<div class="content">
+    <div class="text-wrap">
+        <p>신나는 쿵쿵따</p>
+    </div>
+    <div class="word-wrap">
+        <span id="count">0</span>
+        <span class="keyword">제시어</span>
+        <span id="word"></span>
+        <input type="text"><button>쿵쿵따</button>
+    </div>
+</div>
+
+
+<style>
+
+    *{margin: 0; padding: 0;}
+    ul{list-style: none;}
+    a{text-decoration: none; color: black;}
+
+    @font-face {
+    font-family: 'GoryeongStrawberry';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+     
+    .content{
+    width: 40%;
+    height: 60%;
+    background-color: ivory;
+    border: 5px solid darkseagreen;
+    margin: 0 auto;
+    margin-top: 12%;
+    border-radius: 24px;
+   }
+
+   .content .text-wrap{
+    background-color: darkseagreen;
+    text-align: center;
+    border-radius: 18px 18px 0 0;
+    }
+
+   .content .text-wrap p{
+    font-size: 25px;
+    padding-bottom: 3%;
+    display: block;
+    padding-top: 3%;
+    font-family: 'GoryeongStrawberry' , 'sans-serif';
+    color: darkslategrey;
+    font-size: 70px;
+    }
+    
+    .content .word-wrap{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding-top: 3%;   
+    }
+
+    .content .word-wrap span{
+        display: block;
+    }
+    
+    .content .word-wrap #count{
+        font-size: 24px;
+        margin-bottom: 2%;
+        font-family: 'GoryeongStrawberry' , sans-serif;
+        color: #fff;
+        background-color: seagreen;
+        width: 40px;
+        height: 40px;
+        line-height: 45px;
+        border-radius: 50%;
+        font-size: 24px;
+        margin: 0 auto;
+        
+    }
+    
+    .content .word-wrap #word{
+        font-size: 36px;
+        font-family: 'GoryeongStrawberry' , sans-serif;
+        color: darkslategray;
+
+    }
+
+    .content .word-wrap .keyword{
+        font-family: 'GoryeongStrawberry' , sans-serif;
+        font-size: 17px;
+        margin-top: 10px;
+        color: darkslategray;
+    }
+
+    .content .word-wrap input{
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 25%;
+        font-size: 19px;
+        margin-bottom: 20px;
+        font-family: 'GoryeongStrawberry' , sans-serif;
+        color: darkslategray;
+    }
+
+    .content .word-wrap button{
+        width: 200px;
+        height: 40px;
+        font-size: 19px;
+        margin-bottom: 40px;
+        appearance: none;
+        background-color: darkslategray;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+</style>
+
+
+
+<script>
+    const $button = document.querySelector('button');
+    const $input = document.querySelector('input');
+    const $word = document.querySelector('#word');
+    const $count = document.querySelector('#count');
+    
+
+    let word; 
+    let newWord;
+
+    const start = confirm('게임을 시작할까요?')
+    
+    if(start == false){
+        alert('게임을 실행하지 않습니다.')
+
+    }else{
+        alert('게임을 실행합니다.')
+
+        const onClickButton = () => {
+
+            if (!word){
+                if(newWord.length === 3){
+                word = newWord;
+
+                $word.textContent = word ;
+                $input.value = ''; 
+                $input.focus();
+
+                const Count = Number($count.textContent)
+                $count.textContent = Count + 1;
+                $input.value = ''; 
+                
+                }else{
+                    alert ('3어절 단어를 입력하시오.')
+                }
+
+            }else{
+                    
+                if(newWord.length === 3){
+
+                    if(word[2] === newWord[0]){
+                        word = newWord;
+                        $word.textContent = [word] ;
+                        $input.value = '';
+                        $input.focus();
+                        const Count = Number($count.textContent)
+                        $count.textContent = Count + 1;
+                        $input.value = '';
+
+                    }else{
+                        alert ('마지막과 같은 어절을 사용하시오.')
+                    }
+
+                }else{
+                        alert ('3어절 단어를 입력하시오.')
+                }
+
+            }
+        }   
+
+
+        const onInput = (event) => {
+           newWord = event.target.value;};
+    
+    
+           $input.addEventListener('input', onInput)
+           $button.addEventListener('click', onClickButton)
+       
+    }
+            
+    
+
+
+
+        
+
+
+</script>
+</body>
+</html>

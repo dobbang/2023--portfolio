@@ -51,7 +51,7 @@ floatingObject('.floating5', 0.0 , 5)
 const swiper = new Swiper(".clonecoding", {
   loop: true,
   slidesPerView: 4,
-  spaceBetween: 20,
+  spaceBetween: 40,
   breakpoints:{
     480:{slidesPerView:1},
     768:{slidesPerView:2},

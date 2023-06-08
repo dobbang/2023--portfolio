@@ -709,10 +709,10 @@ border-color: #67947d;
 
 .clone{
     width: 100%;
-    margin-top: 70px;
 }
 .section  .swiper-slide img{
     width: 100%;
+    height: 600px;
 }
 
 .clone-wrap h3{
@@ -724,8 +724,8 @@ border-color: #67947d;
     height: 50px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 80px;
-    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-top: 70px;
 }
 
 .clonecoding{
@@ -739,17 +739,10 @@ border-color: #67947d;
     width: 100%;
     height: 150px;
     bottom: 4px;
-    margin-bottom: 100px;
-    /* background-color: #67947d; */
+    margin-bottom: 70px;
+    margin-top: 20px;
 
 }
-
-
-/* .clone .clonecoding .swiper-slide.swiper-slide-active{
-    transform: scale(1.1);
-    height: 200px;
-    width: 100%;} */
-
 
 
 .clone .clone-wrap .information h2{
@@ -795,7 +788,6 @@ border-color: #67947d;
     color: #fff;
     transform: translateY(-5px);
   }
-
 
 
 /* design 끝 */
