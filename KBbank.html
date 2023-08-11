@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KB 국민은행</title>
+    <link rel="stylesheet" href="css/KBbank.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://kit.fontawesome.com/0fb14b9826.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="js/KBbank.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-wrap">
+            <div class="logo">
+                <img src="images/kb/KB_s_kr3.svg" width="180px" height="38px" alt="logo">
+            </div>
+            <div class="language">
+
+            </div>
+            <div class="hambuger">
+                <div class="menu-btn">
+                    <span class="btn-line"></span>    
+                    <span class="btn-line"></span>    
+                    <span class="btn-line"></span>    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="menu">
+        <div class="menu-wrap">
+            <div class="login">
+                <p>전도영 님</p>
+                <a href="#">로그아웃</a>
+            </div>
+            <div class="serch-content">
+                <input type="search" name="search" id="search" placeholder="검색어를 입력하세요">
+                <a href="#">검색</a>
+            </div>
+            <div class="tab-menu">
+                <ul>
+                    <li><a href="#" class="tab-title">개인</a></li>
+                    <li><a href="#" class="tab-title">기업</a></li>
+                    <li><a href="#" class="tab-title">금융상품</a></li>
+                </ul>
+                <div class="tab-wrap">
+                    <div class="tab-content">
+                        <div class="tab-nav">
+                            <ul>
+                                <li><a href="#">조회</a>
+                                <div class="tab-menu-wrap">
+                                    <p>계좌조회</p>
+                                    <p>거래내역</p>
+                                    <p>전자어음</p>
+                                    <p>에스크로</p>
+                                    <p>수표어음</p>
+                                    <p>어카운트 인포</p>
+                                    <p>계약서류 관리</p>
+                                </div>
+                            </li>
+                                <li><a href="#">이체</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>계좌이체</p>
+                                        <p>이체결과 조회</p>
+                                        <p>자동이체</p>
+                                        <p>에스크로 이체</p>
+                                        <p>자동이체 서비스</p>
+                                    </div>
+                                </li>
+                                <li><a href="#">공과금</a>
+                                    <div class="tab-menu-wrap">
+                                    <p>MY 공과금</p>
+                                    <p>지로/생활요금</p>
+                                    <p>CMS/펌뱅킹</p>
+                                    <p>지방세</p>
+                                    <p>4대 보험료</p>
+                                    <p>국세/관세</p>
+                                    <p>기금/국고</p>
+                                    <p>범칙/벌과금</p>
+                                    <p>대학등록금</p>
+                                    <p>법원업무</p>
+                                    </div>   
+                                </li>
+                                <li><a href="#">뱅킹관리</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>제증명발급</p>
+                                        <p>계좌관리</p>
+                                        <p>이체관리</p>
+                                        <p>인터넷 뱅킹관리</p>
+                                        <p>ID 모아보기 서비스</p>
+                                        <p>통지서비스</p>
+                                        <p>이용안내</p>
+                                        </div>   </li>
+                                <li><a href="#">외환</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>외환정보관리</p>
+                                        <p>환율</p>
+                                        <p>환전</p>
+                                        <p>해외 송금</p>
+                                        <p>국내외화이체</p>
+                                        <p>환율픽(pick)</p>
+                                        <p>외화수표</p>
+                                        <p>해외투자</p>
+                                    </div>  
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-nav">
+                            <ul>
+                                <li><a href="#">조회</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>계좌조회</p>
+                                        <p>거래내역</p>
+                                        <p>증명섭 발급</p>
+                                        <p>로그인 없이 조회</p>
+                                        <p>기타 조회</p>
+                                    </div>
+                                </li>
+                                <li><a href="#">뱅킹업무</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>자금관리</p>
+                                        <p>B2B</p>
+                                        <p>공과금</p>
+                                        <p>예금/신탁</p>
+                                        <p>대출</p>
+                                        <p>펀드</p>
+                                        <p>보험/공제</p>
+                                        <p>전자세금계산서 발행</p>
+                                    </div>   
+                                </li>
+                                <li><a href="#">외환</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>외환 HOME</p>
+                                        <p>마이 외환</p>
+                                        <p>환율/금리</p>
+                                        <p>외화송금</p>
+                                        <p>국내외화이체</p>
+                                        <p>외화현찰환전</p>
+                                        <p>수출입</p>
+                                        <p>FX/파생상품</p>
+                                        <p>해외투자/외국인국내투자</p>
+                                        </div>   </li>
+                                <li><a href="#">비즈니스 인사이트</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>외환정보관리</p>
+                                        <p>환율</p>
+                                        <p>환전</p>
+                                        <p>해외 송금</p>
+                                        <p>국내외화이체</p>
+                                        <p>환율픽(pick)</p>
+                                        <p>외화수표</p>
+                                        <p>해외투자</p>
+                                    </div> 
+                                </li>
+                                <li><a href="#">뱅킹관리</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>결제/권한관리</p>
+                                        <p>인터넷뱅킹 관리</p>
+                                        <p>자금관리</p>
+                                        <p>통지/편의서비스 신청</p>
+                                        <p>이용안내</p>
+                                        <p>기업뱅킹 체험관</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-nav tab-nav-3">
+                            <ul>
+                                <li><a href="#">예금</a>
+                                <div class="tab-menu-wrap">
+                                    <p>예금/상품가입</p>
+                                    <p>판매중지상품</p>
+                                    <p>예금 조회/해지</p>
+                                    <p>예금 관리</p>
+                                    <p>예금 가이드</p>
+                                </div>
+                            </li>
+                                <li><a href="#">펀드</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>펀드 상품/가입</p>
+                                        <p>입금/환매/조회</p>
+                                        <p>펀드 관리</p>
+                                        <p>연금저축펀드</p>
+                                        <p>펀드 투자정보</p>
+                                        <p>연금계좌 가져오기</p>
+                                    </div>
+                                </li>
+                                <li><a href="#">대출</a>
+                                    <div class="tab-menu-wrap">
+                                    <p>대출상품/신청</p>
+                                    <p>대출진행현황</p>
+                                    <p>대출관리</p>
+                                    <p>대출가이드</p>
+                                    <p>신용평가 및 여신심사 자료제출</p>
+                                    </div>   
+                                </li>
+                                <li><a href="#">신탁</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>신탁 상품</p>
+                                        <p>조회/입금/해지</p>
+                                        <p>신탁관리</p>
+                                        <p>연금저축신탁 비교공시</p>
+                                        <p>스튜어드십 코드</p>
+                                        <p>채권상품안내</p>
+                                        <p>기타 안내사항</p>
+                                        </div>   </li>
+                                <li><a href="#">ISA</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>ISA 상품/가입</p>
+                                        <p>ISA 조회/입금</p>
+                                        <p>ISA 해지(일임형)</p>
+                                        <p>ISA 관리</p>
+                                        <p>ISA 가이드</p>
+                                    </div>
+                                </li>
+                                <li><a href="#">보험/공제</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>보험상품/가입</p>
+                                        <p>보험 조회/입금</p>
+                                        <p>노란우산공제</p>
+                                        <p>보험 가이드</p>
+                                    </div>  
+                                </li>
+                                <li><a href="#">골드</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>KB 골드뱅킹</p>
+                                        <p>골드바</p>
+                                        <p>실버바</p>
+                                        <p>기념주화/메달</p>
+                                    </div>  
+                                </li>
+                                <li><a href="#">외화예금</a>
+                                    <div class="tab-menu-wrap">
+                                        <p>외화예금 상품/가입</p>
+                                        <p>외화예금 추가입금</p>
+                                        <p>외화예금 조회/해지</p>
+                                        <p>외화예금 금리안내</p>
+                                    </div>  
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="chat">
+        <a href="#"><i class="fa-regular fa-comment-dots"></i></i></a>
+    </div>
+    
+
+    <div id="fullpage">
+        <div class="section main">
+            <div class="swiper main-banner">
+                <div class="swiper-wrapper main-slider">
+                    <div class="swiper-slide main-slie">
+                        <img src="images/kb/main.jpg" alt="main-banner">
+                        <div class="banner-text">
+                            <p>당신을 위한 체크카드</br>KB 노리카드</p>
+                            <span>MZ 세대를 위한 혜택 가득</br>국민은행 어플에서 만나보세요</span>
+                            <a href="#">자세히보기 > </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/kb/main2.jpg" alt="main-banner">
+                        <div class="banner-text">
+                            <p>금융업무를 간편히</br>비대면 상담 오픈</p>
+                            <span>힘들게 직접 방문없이</br>언제 어디서나 쉽게</span> 
+                            <a href="#">자세히보기 ></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/kb/main3.jpg" alt="main-banner">
+                        <div class="banner-text">
+                            <p>나에게 맞는 신용카드</br>정해드립니다</p>
+                            <span>필요한 혜택은 늘리고</br>알뜰살뜰 캐시백도 챙기고</span> 
+                            <a href="#">자세히보기 ></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/kb/main4.jpg" alt="main-banner">
+                        <div class="banner-text">
+                            <p>우리 소비습관</br>이대로 괜찮을까요?</p>
+                            <span>KB가 소비패턴을 분석하여</br>해결책을 제시해 드립니다</span> 
+                            <a href="#">자세히보기 ></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/kb/main5.jpg" alt="main-banner">
+                        <div class="banner-text">
+                            <p>지구를 구할 작은 관심</br>KB에서 시작합니다</p>
+                            <span>우리의 작은 관심들이 모여</br>지구의 큰 도움이 됩니다</span> 
+                            <a href="#">자세히보기 ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-act">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+
+            <div class="side-nav">
+                <a href="#">로그인</a>
+                <a href="#">공인인증센터</a>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="#">전체메뉴</a></li>
+                    <li><a href="#">빠른 조회</a></li>
+                    <li><a href="#">계좌 조회</a></li>
+                    <li><a href="#">계좌 이체</a></li>
+                    <li><a href="#">고객우대제도</a></li>
+                    <li><a href="#">소비자보호</a></li>
+
+                </ul>
+            </div>
+
+            <div class="notice-wrap">
+                <div class="notice">
+                    <h5>안내사항</h5>
+                    <p>「디지털성금서비스 이용약관」 · 「디지털성금서비스 이용단체 이용약관」 개정 안내</p>
+                    <p>『KB환율픽(Pick) 거래시간 확대 시행』 안내</p>
+                    <p>「KB장애인평생케어신탁」 약관 제정 안내</p>
+                    <p>「KB Wallet 서비스 이용약관」 변경 대고객 안내</p>
+                </div>
+                <div class="event">
+                    <h5>이벤트</h5>
+                    <p>자녀 금융 복잡하고 고민될 땐 「6월 KB키즈패키지」로 해결! </p>
+                    <p>KB부동산 x LG유플러스 제휴 이벤트</p>
+                    <p>[KB국민은행 X GS Pay] KB입출금통장 만들고 GS Pay 이용하면 최대 2만원 혜택! </p>
+                    <p>리브 앤 라이브와 김해준의 슬기로운 부캐 생활</p>   
+                </div>
+            </div>
+
+                
+        </div>
+
+
+
+        <div class="section kids">
+            <div class="kids-wrap">
+                <div class="content">
+                    <img src="images/kb/kids.png" alt="kids-event-image">
+                </div>
+                <div class="text">
+                    <span>최대 5만원의 추가 혜택까지</span>
+                    <h6>자녀 금융 고민 한번에 해결!
+                    </br>7월 KB 키즈 패키지</h6>
+                    <span>대상 : 만 18세 이하 미성년 고객 및 법정대리인</span>
+                    <span>기간 : 2023. 07. 01 ~ 07. 30 (금)</span>
+                    <a href="#">자세히보기</a>
+                </div>
+                
+            </div>
+            <div class="icon">
+                <div class="icon-wrap">
+                    <div class="ward">
+                        <p>금융 상품</p>
+                        <p>바로가기 <i class="fa-solid fa-chevron-right title"></i> </p>
+                    </div>
+                    <div class="ward">
+                        <span><i class="fa-solid fa-piggy-bank"></i></span>
+                        <span>예금</span>
+                    </div>
+                    <div class="ward">
+                        <span><i class="fa-solid fa-chart-line"></i></span>
+                        <span>펀드</span>
+                    </div>
+                    <div class="ward">
+                        <span><i class="fa-solid fa-coins"></i></span>
+                        <span>대출</span>
+                    </div>
+                    <div class="ward">
+                        <span><i class="fa-solid fa-money-bill-wave"></i></span>
+                        <span>신탁</span>
+                    </div>
+                    <div class="ward">
+                        <span><i class="fa-solid fa-arrow-trend-up"></i></span>
+                        <span>ISA</span>
+                    </div>
+                    <div class="ward">
+                        <span><i class="fa-solid fa-house-crack"></i></span>
+                        <span>보험</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="section solution">
+            <h6>국민은행이 제안하는 </br>맞춤 금융 솔루션</h6>
+            <div class="solution-wrap">
+                <div class="content">
+                    <div class="content-wrap">
+                    <a>내집마련</a>
+                        <img src="images/kb/person1.png" alt="person">
+                        <span>든든새입자적금</span>
+                        <p>연 2.3% 우대금리를 제공하는 </br>
+                            “사회새내기 적금” </br>
+                            20대 청년이라면</br>
+                            누구나 가입 가능한 상품 </p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="content-wrap">
+                        <a>노후대비</a>
+                            <img src="images/kb/person3.png" alt="person">
+                            <span>연금탄탄예금</span>
+                            <p>연 2.3% 우대금리를 제공하는 </br>
+                                “사회새내기 적금” </br>
+                                20대 청년이라면</br>
+                                누구나 가입 가능한 상품 </p>
+                        </div>
+                </div>
+                <div class="content">
+                    <div class="content-wrap">
+                        <a>사회초년생</a>
+                            <img src="images/kb/person2.png" alt="person">
+                            <span>청년사랑적금</span>
+                            <p>연 2.3% 우대금리를 제공하는 </br>
+                                “사회새내기 적금” </br>
+                                20대 청년이라면</br>
+                                누구나 가입 가능한 상품 </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section kb-app">
+            <div class="app-wrap">
+                <h5>내 손안의 국민은행</h5>
+                <h6>간편하게 app을 통하여 비대면으로 업무를 처리해보세요</h6>
+                <h6>지금 바로 app store에서 만나보세요</h6>
+                <h4>하단 이미지는 실제와 다름</h4>
+                <img src="images/kb/phone.png" alt="phone" class="phone-img">
+                <div class="phone">
+                    <div class="phone-text">
+                        <img src="images/kb/app1.png" alt="KB star bangking">
+                        <p>KB 스타뱅킹</p>
+                        <span>한 번에 모든 업무를</span>
+                        <span>편리함 지수 up!</span>
+                    </div>
+                    <div class="phone-text"></div>
+                    <div class="phone-text">
+                        <img src="images/kb/app2.png" alt="KB star bangking">
+                        <p>KB 기업뱅킹</p>
+                        <span>스마트한 기업서비스로</span>
+                        <span>기업의 시작부터 성공까지</span>
+                    </div>
+                    <div class="phone-text">
+                        <img src="images/kb/app3.png" alt="KB star bangking">
+                        <p>리브 Next</p>
+                        <span>나의 첫 금융 도우미</span>
+                        <span>나만의 리브포켓</span>
+                    </div>
+                    <div class="phone-text"></div>
+                    <div class="phone-text">
+                        <img src="images/kb/app4.png" alt="KB star bangking">
+                        <p>KB 부동산</p>
+                        <span>직접 갈 필요 없이</span>
+                        <span>아파트 시세 확인하기</span>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="section footer">
+            <div class="footer-wrap">
+                <div class="top">
+                    <p>당신 곁에 가까운 금융</p>
+                    <p>KB 국민은행</p>
+                    <span>고객님들의 희망과 미래를 위해</span>
+                    <span>열심히 노력하겠습니다</span>
+                </div>
+                <div class="middle">
+                    <a href="#">이용상담</a>
+                    <a href="#">보안프로그램 </a>
+                    <a href="#">보호금융상품등록부</a>
+                    <a href="#" >개인정보처리방침</a>
+                    <a href="#">신용정보활용체제</a>
+                    <a href="#">KB 금융 그룹 네트워크</a>
+                </div>
+                <div class="bottom">
+                    <span>SNS</span>
+                    <a href="#"><i class="fa-brands fa-facebook"></i>facebook</a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i>youtube</a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i>instagram</a>
+                    <a href="#"><i class="fa-sharp fa-regular fa-b"></i>blog</a>
+                    <p>Copyright KB Kookmin Bank. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
