@@ -1,10 +1,9 @@
 $("document").ready(function(){
 
-    new fullpage("#fullpage", {
+    $('#fullpage').fullpage({
         sectionsColor: [ "#fff","#fff","#f1f0ef","#fff","#6e6757"],
         anchors: ["main","Publishing2","Publishing3","contact", "footer"]
       });
-
 
     $(".hambuger").click(function(){
         $(".menu").toggleClass('on');

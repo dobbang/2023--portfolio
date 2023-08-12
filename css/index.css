@@ -237,9 +237,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 .about .about-wrap{
     width: 1400px;
-    height: 400px;
     margin: 0 auto;
-    margin-top: 90px;
 }
 
 .about .about-wrap .web-photo .content{
@@ -248,8 +246,8 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     background-color: #f7f5f5;
     border-top: 35px solid #f0b8c3;
     position: absolute;
-    top: 230px;
-    left: 270px;
+    top: 210px;
+    left: 280px;
 }
 
 
@@ -257,7 +255,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     width: 250px;
     display: block;
     margin: 0 auto;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .about .about-wrap .web-photo .content .propil-logo{
@@ -289,12 +287,11 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 
 .about .about-wrap .web-introduce{
-    width: 800px;
+    width: 830px;
     height: 650px;
     background-color: #f1f1f1;
     border-top: 35px solid #c8c8c8;
     margin-left: 200px;
-    margin-top: 150px;
 
 }
 .about .about-wrap .web-introduce .conetent-wrap{
@@ -499,7 +496,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 .about .about-wrap .flex img{
     position: absolute;
     top: 200px;
-    right: 300px;
+    right: 290px;
     width: 370px;
     transform: rotate(2deg);
 }
@@ -513,7 +510,6 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 .work{
     width: 100%;
     position: relative;
-    margin-top: 70px;
 }
 .wrap{
     width: 1217px;
