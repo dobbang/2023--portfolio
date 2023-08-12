@@ -18,7 +18,7 @@ document.documentElement.addEventListener('touchend', function (event) {
    
 
   new fullpage("#fullpage", {
-    sectionsColor: ["#66669a", "#9090ba", "white", "white","white","white","#8b8bc8"],
+    sectionsColor: ["#66669a", "white", "white", "white","white","white","#8b8bc8"],
     anchors: ["home", "about", "Publishing1","Publishing2","Publishing3","clone-wrap","contact"],
     responsiveWidth: 640,
   });
