@@ -175,11 +175,6 @@ transform: rotate(-45deg) translateY(-14px);
     overflow: hidden;
 }
 
-.main .mobile-line {
-    display: none;
-}
-
-
 .main .scroll {display: flex; align-items: center; justify-content: center; position: absolute;
 top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
@@ -894,15 +889,17 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 .publishing .wrap img{display: none;}
 
+
+
+
 /* 반응형 */
 
 
 
 @media screen and (max-width : 640px) {
     
-
     .nav .nav-wrap{
-        width: 100%;
+        width: 100vw;
     }
 
 
@@ -914,10 +911,14 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
         display: none;
     }
 
+    .main-wrap{
+        width: 100%;
+    }
+
     .main .mobile-back{
         width: 100%;
+        height: 100%;
         display: block;
-        overflow: hidden;
     }
 
     .main .floating5{
@@ -925,128 +926,65 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
         display: block;
         position: absolute;
         top: 10%;
+        display: block;
 
     }
 
     .main .floating3{
         width: 70%;
         margin-top: 10%;
-    }
-    
-    .about .about-wrap{
-        width: 100%;
-    }
-    
-    .about .about-left{
-        margin: 0 auto;
-        float: none;
-        width: 100%;
-        }
-
-    .about-bottom .about-b-right,
-    .about-bottom .about-b-left,
-    .about-bottom .about-b-left .propils span,
-    .about-bottom .about-b-left .propils p,
-    .about-bottom .about-b-left .education{
-        width: 100%;
-    }
-
-
-    .about .about-wrap h3{
-        width: 100%;
-        font-size: 50px;
-        margin: 0 auto;
+        position: absolute;
         display: block;
-        margin-top: 20px;
     }
     
-    
-    .about .about-left .doyoung{ 
-        display: block;
+    .about{
+        width: 100%;
+        height: 200%;
+    }
+
+
+    .about .about-wrap{width: 100%; height: 90%;
+    background-color: #787777;
+display: block;}
+
+    .about .about-wrap .content-wrap{
+        width: 100%;
+        background-color: #eeb073;
+        height: 50%;
+    }
+
+    .about .about-wrap .web-photo .content{
+        width: 70%;
+        position: relative;
+        left: 0;
+        margin-left: 0;
         margin: 0 auto;
-        margin-top: 20px;
-        width: 30%;
-    }
+        height: 60%;
+        top: 0;
 
-    .about .about-wrap .about-mobile{
-        display: block;
-        text-align: center;
-        margin-top: 15px;
-        margin-bottom: 20px;
-        
-    }
-    
-    .about .about-wrap .about-mobile P{
-        margin-bottom: 0;
-        font-weight: 500;
-        font-size: 24px;
-        width: 100%;
 
     }
-    
 
-    .about-bottom .about-b-left .propils p{
-        display: none;
+    .about .about-wrap .web-photo .content .star2{
+        left: 75%;
     }
 
 
-    .about .about-right .about-bottom .propils{
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-        width: 100%;
-    }
-
-    .about-bottom .about-b-left .education{
-        margin-top: 5px;
-        text-align: center;
-        width: 100%;
-    }
-    .about .about-right .about-bottom .education p{
-        display: none;
-    }
-
-    .about .about-wrap p{
-        text-align: center;
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .about-bottom .about-b-right .keyword span{
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        margin-bottom: 5px;
-    }
+   .about .web-introduce{
+    width: 100%;
+   }
 
 
-    .about-wrap h6,
-    .about-wrap button{
-        display: none;
-    }
+   .about .web-introduce .content1,
+   .about .web-introduce .content2,
+   .about .web-introduce .content3{display: none}
 
-   .about-right .about-bottom .about-b-right .skills {
+   .about .flex{
     display: none;
    }
 
-    .about .about-right{
-        float: none;
-        width: 100%;
-    }
-
-    .about .about-right .about-top{
-        display: none;
-    }
-
-
-    .about-wrap .about-bottom .propils span:nth-of-type(3){
-        display: none;
-    }
-
-
     .wrap{
-        width: 100%;
+     width: 100%;
     }
 
     .publishing h3{
