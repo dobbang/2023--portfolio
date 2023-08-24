@@ -12,6 +12,13 @@ a{text-decoration: none;}
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
 
 .nav{
     width: 100%;
@@ -324,15 +331,26 @@ input#search[type="search"]::-webkit-search-results-decoration {
     top: 140px;
     text-align: left;
 
+
 }
 .main .main-slider P{
     top: 130px;
-    color: #353535;
-    font-size: 36px;
-    font-weight: 900;
-    letter-spacing: 2px; 
-    margin-bottom: 10px;
+    color: #656565;
+    font-size: 37px;
+    margin-bottom: 10px;           
+    font-family: 'GongGothicMedium';
+    letter-spacing: 1.6px;
+    line-height: 50px;   
+    font-weight: 300;
 }
+
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 .main .main-slider span{
@@ -348,8 +366,6 @@ input#search[type="search"]::-webkit-search-results-decoration {
     font-size: 13px;
     text-decoration: underline;
 }
-
-
 
 
 .main .main-banner .main-slider{

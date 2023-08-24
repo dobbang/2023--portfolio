@@ -53,16 +53,16 @@ function newMockFrame(options = { dark: false, style: "regular" }) {
       }
 
       .red {
-        background-color: #ff5f56;
+        background-color: #f58aa0;
       }
 
       .yellow {
-        background-color: #ffc343;
+        background-color: #67947d;
         margin-left: 3px;
       }
 
       .green {
-        background-color: #32a852;
+        background-color: #eeb073;
         margin-left: 3px;
       }
     `;

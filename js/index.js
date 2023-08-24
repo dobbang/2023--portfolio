@@ -24,7 +24,34 @@ document.documentElement.addEventListener('touchend', function (event) {
 });
 
 
-  newMockFrame(); 
+
+$(".button").click(function(){
+  $(".modal-content").toggleClass('on');
+  $(".window-wrap").toggleClass('on');
+  $(".modal-button").addClass('on');
+  $.fn.fullpage.setAllowScrolling(false)
+});
+
+
+
+$(".modal-button").click(function(){
+  $(".modal-content").toggleClass('on');
+  $(".window-wrap").toggleClass('on');
+  $('body').off('scroll touchmove mousewheel');
+  $.fn.fullpage.setAllowScrolling(true)
+});
+
+
+$(".window-wrap").click(function(){
+  $(".modal-content").toggleClass('on');
+  $(".window-wrap").toggleClass('on');
+  $.fn.fullpage.setAllowScrolling(true)
+});
+
+
+
+
+newMockFrame(); 
 
 function random(min, max) {
      
@@ -67,32 +94,14 @@ const swiper = new Swiper(".clonecoding", {
 
 
 
-
-
-
-
-
-
 })
     
 
-
-
-
-function randomDirection() {
-  confetti({
-    angle: randomInRange(55, 125),
-    spread: randomInRange(50, 70),
-    particleCount: randomInRange(50, 100),
-    origin: { y: 0.6 } });
-
-}
 
 function makeItRain() {
   document.getElementById("makeItRain").disabled = true;
   var end = Date.now() + 2 * 1000;
 
-  // go Buckeyes!
   var colors = ['#bb0000', '#ffffff'];
 
   function frame() {

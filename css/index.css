@@ -525,9 +525,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 70px;
-    
 }
-
 
 .publishing .text{
     width: 1250px;
@@ -558,6 +556,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     font-family: 'yg-jalnan';
 
 }
+
 .publishing .text .web-btn .button-m{
     display: none;
 }
@@ -586,6 +585,8 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     line-height: 40px;
     margin-left: 25px;
     }
+
+
     .publishing .text .button:hover {
     background-color: #383858;
     box-shadow: 0px 15px 20px rgba(56, 56, 88, 0.4);
@@ -593,35 +594,86 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     transform: translateY(-5px);
   }
 
-
-   
-  .publishing .text .web-btn .modal{
-    width: 100%;
-    height: 100%;
-    background-color: #66669A;
-    position: fixed;
-    top: 200%;
-    right: 0%;
-    display: none;
-    overflow: hidden;
-
+  .body{
+      position: relative;
   }
 
-.publishing .text .web-btn .modal-content{ 
+  .publishing .text .web-btn .window-wrap{
+        width: 100%;
+        height: 100%;
+        background-color:rgba(178, 178, 209);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+  }
+
+  .work{
+    position: relative;
+  }
+
+   .publishing .text .web-btn .window-wrap.on{
+    display: block;
+    z-index: 10;
+  }
+
+  .publishing .text .web-btn .modal-content{
     display: none;
+    width: 65%;
+    height: 800px;
     position: fixed;
-    width: 70%;
-    height: 100%;
-    top: 200%;
+    text-align: center;
+    top: 2040px;
     left: 50%;
     transform: translateX(-50%);
-    overflow-y: scroll;
-
+    overflow-y : scroll; 
+    z-index: 99;
 }
 
-.publishing .text .web-btn .modal-content img{
+.publishing .text .web-btn .modal-content2{
+    top: 3000px;
+    /* display: block; */
+}
+
+.publishing .text .web-btn .modal-content3{
+    top: 3980px;
+    /* display: block; */
+}
+
+.publishing .text .web-btn .modal-content.on{
+    display: block;
+  }
+
+   .publishing .text .web-btn .modal-content::-webkit-scrollbar {
+    display: none;
+    } 
+
+  .publishing .text .web-btn .modal-content.on img{
     width: 100%;
-}
+    background-color: #eeb073;
+  }
+
+  
+  .publishing .text .web-btn .modal-content p.on{
+    font-size: 15px;
+    font-weight: 200;
+    float: left;
+    width: 6%;
+    line-height: 50px;
+    float: left;
+    }
+    .publishing .text .web-btn .modal-content h5{
+        width: 94%;
+        text-align: left;
+        font-size: 32px;
+        line-height: 50px;
+        float: left;
+      }
+    
+    
+   .publishing {
+    overflow: hidden;
+   }
 
 
 /* work 끝 */
