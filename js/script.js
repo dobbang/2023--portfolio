@@ -44,6 +44,7 @@ function newMockFrame(options = { dark: false, style: "regular" }) {
         height: 12px;
         padding: 12px;
       }
+      
 
       .mockup-button {
         width: 12px;
