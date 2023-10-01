@@ -19,7 +19,7 @@ document.documentElement.addEventListener('touchend', function (event) {
   
   $('#fullpage').fullpage({
     sectionsColor: ["#66669a", "#9090ba", "white", "white","white","white","#8b8bc8"],
-    anchors: ["home", "about", "Publishing1","Publishing2","Publishing3","clone-wrap","contact"],
+    anchors: ["home", "about", "Publishing1","Publishing2","Publishing3","coding","contact"],
     responsiveWidth: 1023,
     
 });
@@ -80,7 +80,11 @@ floatingObject('.floating5', 0.0 , 5)
 const swiper = new Swiper(".clonecoding", {
   loop: true,
   slidesPerView: 4,
-  spaceBetween: 40,
+  spaceBetween: 20,
+  pagination: {   //페이징 사용자 설정
+		el: ".swiper-pagination",   //페이징 태그 클래스 설정 
+		type : 'fraction'
+	},
   breakpoints:{
     480:{slidesPerView:1},
     768:{slidesPerView:2},
