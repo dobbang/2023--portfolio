@@ -974,11 +974,33 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     width: 50%;
 }
 
+.about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap{
+    width: 90%;
+}
+
+
+
 .about .about-wrap .web-introduce .conetent-wrap .content2{
     margin-top: 20%;
     width: 50%;
 }
 
+
+.about .about-wrap .web-introduce .conetent-wrap .content2 .talk1{
+    width: 80%;
+}
+
+.about .about-wrap .web-introduce .conetent-wrap .content2 .talk2{
+    width: 45%;
+    margin-left: 45%;;
+}
+
+
+
+.about .about-wrap .web-introduce .conetent-wrap .content3 .text-wrap{
+
+    width: 100%;
+}
 .about .about-wrap .content-wrap{
     display: none;
 }
