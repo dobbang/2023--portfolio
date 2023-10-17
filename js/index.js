@@ -78,9 +78,9 @@ floatingObject('.floating5', 0.0 , 5)
 
 
 const swiper = new Swiper(".clonecoding", {
-  loop: true,
   slidesPerView: 4,
   spaceBetween: 20,
+  pagination : true,
   pagination: {   //페이징 사용자 설정
 		el: ".swiper-pagination",   //페이징 태그 클래스 설정 
 		type : 'fraction'
