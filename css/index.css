@@ -525,8 +525,6 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 } 
 
 
-
-
 .publishing h3{
     font-size: 36px;
     font-family: 'yg-jalnan';
@@ -568,7 +566,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 }
 
-.publishing .text .web-btn .button-m{
+.publishing .text .web-btn .mobile-button{
     display: none;
 }
 .publishing .text .web-btn{
@@ -594,13 +592,16 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     background-color: #9090ba;
     text-align: center;
     line-height: 40px;
-    margin-left: 25px;
-    }
+}
 
+
+.publishing .text .web-btn .button1{
+        margin-right: 25px;
+    }
 
     .publishing .text .button:hover {
     background-color: #383858;
-    box-shadow: 0px 15px 20px rgba(56, 56, 88, 0.4);
+    box-shadow: 0px 15px 20px rgba(91, 91, 142, 0.4);
     color: #fff;
     transform: translateY(-5px);
   }
@@ -612,7 +613,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
   .publishing .text .web-btn .window-wrap{
         width: 100%;
         height: 100%;
-        background-color:rgba(178, 178, 209);
+        background-color:rgb(241, 241, 241);
         position: absolute;
         top: 0;
         left: 0;
@@ -634,20 +635,21 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     height: 800px;
     position: fixed;
     text-align: center;
-    top: 2040px;
+    top: 2020px;
     left: 50%;
     transform: translateX(-50%);
     overflow-y : scroll; 
     z-index: 99;
+    background-color: rgb(200, 200, 200);
 }
 
 .publishing .text .web-btn .modal-content2{
-    top: 3000px;
+    top: 2980px;
     /* display: block; */
 }
 
 .publishing .text .web-btn .modal-content3{
-    top: 3980px;
+    top: 3940px;
     /* display: block; */
 }
 
@@ -672,6 +674,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     width: 6%;
     line-height: 50px;
     float: left;
+    color: #787777;
     }
     .publishing .text .web-btn .modal-content h5{
         width: 94%;
@@ -679,6 +682,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
         font-size: 32px;
         line-height: 50px;
         float: left;
+        color: #787777;
       }
     
     
@@ -1092,17 +1096,17 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     }
 
     .about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap span{
-        font-size: 14px;
+        font-size: 11px;
     }
 
     .about .about-wrap .web-introduce .conetent-wrap .content2 p{
-        font-size: 12px;
+        font-size: 11px;
         letter-spacing: 0px;
     }
 
 
     .about .about-wrap .web-introduce .conetent-wrap .content3 span{
-        font-size: 14px;
+        font-size: 11px;
     }
 
 
