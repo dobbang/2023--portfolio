@@ -1,7 +1,7 @@
 @charset "utf-8";
 *{margin: 0; padding: 0;
     user-select: none;
-    font-family: 'LINESeedKR-Bd';
+    font-family:  'SUIT-Regular';
     color: white;} 
 ul{list-style: none;}
 a{text-decoration: none;}
@@ -11,10 +11,17 @@ a{text-decoration: none;}
 @font-face {
     font-family: 'LINESeedKR-Bd';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
-    font-weight: 400;
+    font-weight: 400 100 700;
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'yg-jalnan';
@@ -916,7 +923,6 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     position: absolute;
     top: 0%;
     display: block;
-
 }
 
 
@@ -1005,7 +1011,6 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
  iframe{
     object-fit: cover;
-
 }
 
 
@@ -1014,6 +1019,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 }
 
 .work .publishing .mobile-button{
+    display: block;
     width: 27%;
     height: 10%;
     background-color: #65659b;
@@ -1100,8 +1106,9 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     }
 
     .about .about-wrap .web-introduce .conetent-wrap .content2 p{
-        font-size: 11px;
+        font-size: 10px;
         letter-spacing: 0px;
+
     }
 
 
