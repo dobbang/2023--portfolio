@@ -26,7 +26,7 @@ document.documentElement.addEventListener('touchend', function (event) {
 
 
 
-$(".button").click(function(){
+$(".button2").click(function(){
   $(".modal-content").toggleClass('on');
   $(".window-wrap").toggleClass('on');
   $(".modal-button").addClass('on');
