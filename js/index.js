@@ -19,7 +19,7 @@ document.documentElement.addEventListener('touchend', function (event) {
   
   $('#fullpage').fullpage({
     sectionsColor: ["#66669a", "#9090ba", "white", "white","white","white","#8b8bc8"],
-    anchors: ["home", "about", "Publishing1","Publishing2","Publishing3","coding","contact"],
+    anchors: ["home", "about", "Publishing1","Publishing2","Publishing3", "etc","contact"],
     responsiveWidth: 1023,
     
 });
@@ -48,6 +48,13 @@ $(".window-wrap").click(function(){
   $(".window-wrap").toggleClass('on');
   $.fn.fullpage.setAllowScrolling(true)
 });
+
+
+$(".modal-image").click(function(){
+  alert("현재 modal 구현 중입니다.")
+});
+
+
 
 
 

@@ -10,12 +10,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
 
 </head>
 <body>
     <div class="intro-section">
         <div class="logo"><a href="#"><img src="images/promotion/logo.png"alt="logo"></a></div>
-        <div class="site-title">introduce</br> myself</div>
+        <div class="site-title">self-introduction</br>profile</div>
         <p class="main-title">
             All About</br>
             Jeon DoYoung
@@ -30,14 +32,14 @@
     <div class="sns-section">
         <span class="sns-deco"></span>
         <ul>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">CV</a></li>
+            <li><a href="index.html" >portfolio</a></li>
+            <li><a href="images/pf/전도영_이력서.pdf" target="_blank" >CV</a></li>
         </ul>
     </div>
 
     <div class="imgage-section">
         <a href="#"><img src="images/promotion/main-img.png" alt="img"></a>
-        <div class="img-deco">Jeon</br>doyoung</div>
+        <div class="img-deco">do</br>young</div>
     </div>
 
     <div class="text-section">
@@ -76,7 +78,7 @@
                 <span>장난감</span></br>
         </div>
         <div class="career-deco">
-            DY
+            Dy
         </div>
         
     </div>
@@ -85,8 +87,8 @@
         <div class="main-title">What is your the motto?</br>and why?</div>
         <div class="main-desc">
             <div class="text-b"><p>가치있게 보낸 시간은 언젠가 돌아온다</p></div>
-            <p>저는 호기심을 바탕으로 참 많은 일을 시작 했습니다. <br>유럽이 궁금해 아일랜드로 워킹홀리데이를 떠나기도 했으며 빵을 좋아한다는 이유로 빵집알바를 하기도 했습니다.</p>
-            <p> 이러한 호기심으로 시작된 일들은 저에게 많은 변화를 가져다 주었습니다.<br> 언어가 통하지 않는 곳에서 살아가는 방법을 배우게 되었고 좋아하는 것을 업으로 삼는 일이 얼마나 행복한지 알게되었습니다.<br>저는 이러한 경험들을 바탕으로 어떤 일을 하더라도 진심으로 임한다면 얻는 것이 있다는 것을 깨달았습니다<br>앞으로도 더욱 알아가고 싶은 것도 많으며 진심으로 임하며 살아가고 싶습니다.</p>
+            <p>저는 호기심을 바탕으로 참 많은 일을 시작했습니다. <br>유럽이 궁금해 아일랜드로 워킹홀리데이를 떠나기도 했으며 빵을 좋아한다는 이유로 빵집 아르바이트를 하기도 했습니다.</p>
+            <p> 이러한 호기심으로 시작된 일들은 저에게 많은 변화를 가져다주었습니다.<br> 언어가 통하지 않는 곳에서 살아가는 방법을 배우게 되었고 좋아하는 것을 업으로 삼는 일이 얼마나 행복한지 알게 되었습니다.<br>저는 이러한 경험을 바탕으로 어떤 일을 하더라도 진심으로 임한다면 얻는 것이 있다는 것을 깨달았습니다<br>앞으로도 더욱 알아가고 싶은 것도 많으며 진심으로 임하며 살아가고 싶습니다.</p>
         </div>
     </div>
 
@@ -96,8 +98,8 @@
             <div class="img-section"><img src="images/promotion/back-img.png" alt="img"></div>
             <div class="img-block">
                 <div class="main-title">
-                    경험의 가치를 알고있기에</br>
-                    모든 순간 진심으로 최선을 다하겠습니다 
+                    새로운 경험의</br>
+                    시작이 될 곳을 찾고 있습니다.
                 </div>
             </div>
             <div class="deco-title">Cordially</div>
@@ -107,8 +109,8 @@
     <div class="contact-section">
         <div class="sub-title">&#x1F4EE Contact</div>
         <div class="section-desc">
-            저의 새로운 경험을 쌓아나갈 곳을 찾고 있습니다.</br>
-            긍정적인 연락 기다리겠습니다. 
+            저의 새로운 경험의 시작이 될 곳을 찾고 있습니다.</br>
+            
         </div>
         <div class="contact-summary">
             <div class="cs-item">전도영
@@ -126,8 +128,8 @@
         <div class="contact-form">
             <input type="text" placeholder="yout email address">
             <textarea id="massage-text" placeholder="your Madaage"></textarea>
-            <span class="submit-button">send Email</span>
-            <a href="#"><span class="submit-button">check CV</span></a>
+            <span class="submit-button emailbutton">send Email</span>
+            <a href="images/pf/전도영_이력서.pdf" target="_blank"><span class="submit-button">이력서</span></a>
         </div>
         <div class="contact-deco">
             <p>Contact</p>
@@ -138,6 +140,16 @@
         <div class="top-bt">thank you</div>
     </div>
 
+
+    <script>
+        $(".emailbutton").click(function(){
+            alert('아직 구현하지 못한 기능입니다. 이력서를 참조해주세요.');
+
+        })
+    </script>   
+
+
 </body>
+
 
 </html>
