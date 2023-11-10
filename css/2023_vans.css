@@ -297,7 +297,7 @@ input.search-text[type="search"]::-webkit-search-results-decoration {
 }
 
 .main .main-wrap{
-    width: 75vw;
+    width: 100%;
     margin: 0 auto;
     margin-top: 1vw;
 }
@@ -949,7 +949,7 @@ input.search-text[type="search"]::-webkit-search-results-decoration {
     width: 8vw;
 }
 
-.footer .footer-wrap .last .explain{
+.footer .footer-wrap .last {
     width: 50vw;
 }
 
@@ -1325,7 +1325,7 @@ input.search-text[type="search"]::-webkit-search-results-decoration {
 
     
     .footer .footer-wrap .last .explain ul li a{
-        font-size: 0.1rem;
+        font-size: 1.1rem;
     }
   } 
 
@@ -1691,14 +1691,8 @@ input.search-text[type="search"]::-webkit-search-results-decoration {
     }
 
 
-    
+
     .footer .footer-wrap .last .explain ul li a{
-        font-size: 0.1rem;
+        font-size: 0.8rem;
     }
-
-    .footer .footer-wrap .last .logo{
-        display: none;
-    }
-
-
   }
