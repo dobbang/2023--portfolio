@@ -51,9 +51,18 @@ $(".window-wrap").click(function(){
 
 
 $(".modal-image").click(function(){
-  alert("현재 modal 구현 중입니다.")
+  $(".modal-zone").toggleClass('on');
+  $(".modal-window").toggleClass('on');
+  $.fn.fullpage.setAllowScrolling(false)
+
 });
 
+$(".modal-window").click(function(){
+  $(".modal-zone").toggleClass('on');
+  $(".modal-window").toggleClass('on');
+  $.fn.fullpage.setAllowScrolling(true)
+
+});
 
 
 
