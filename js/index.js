@@ -1,5 +1,12 @@
+
+
 $("document").ready(function(){
 
+
+setTimeout(function(){
+  $('.loadingback').fadeOut()
+
+},3000)
 
   document.documentElement.addEventListener('touchstart', function (event) {
     if (event.touches.length > 1) {
@@ -114,7 +121,6 @@ const swiper = new Swiper(".clonecoding", {
 });
 
 
-
 })
     
 
@@ -154,3 +160,6 @@ function makeItRain() {
 function randomInRange(min, max) {
   return Math.random() * (max - min) + min;
 }
+
+
+
