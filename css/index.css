@@ -139,28 +139,26 @@ transform: rotate(-45deg) translateY(-14px);
 
 
 .loadingback{
-    background-color: #65659b;
+    background-color: rgba(101, 101, 155, 0.99);
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: 1000;
     transition: 0.1s;
+    text-align: center;
 }
 
 
 .loading{
     position: absolute;
-    width: 150px;
-    height: 20px;
-  
-    top: 45%;
-    top: -webkit-calc(50% - 10px);
-    top: calc(50% - 10px);
-    left: 25%;
-    left: -webkit-calc(50% - 75px);
-    left: calc(50% - 75px);
-  
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    top: 55g%;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: rgba(255,255,255,0.2);
+    border-radius: 50px;
   }
   
   .loading:before{
@@ -169,28 +167,31 @@ transform: rotate(-45deg) translateY(-14px);
     background-color: #fff;
     top: 0px;
     left: 0px;
-    height: 20px;
+    height: 40px;
     width: 0px;
     z-index: 0;
     opacity: 1;
     -webkit-transform-origin:  100% 0%;
         transform-origin:  100% 0% ;
-    -webkit-animation: loader4 10s ease-in-out infinite;
-        animation: loader4 10s ease-in-out infinite;
+    -webkit-animation: loader4 5s ease-in-out infinite;
+        animation: loader4 5s ease-in-out infinite;
+        border-radius: 50px;
   }
   
   .loading:after{
-    content: "LOADING ...";
-    color: #fff;
+    content: "LOADING";
+    color: #383858;
     font-family: 'yg-jalnan';
-    font-weight: 200;
-    font-size: 16px;
+    font-size: 24px;
+    letter-spacing: 2px;
     position: absolute;
+    text-align: center;
     width: 100%;
-    height: 20px;
-    line-height: 20px;
+    height: 40px;
+    line-height: 40px;
     left: 0;
     top: 0;
+    border-radius: 50px;
   }
   
   @-webkit-keyframes loader4{
