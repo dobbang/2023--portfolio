@@ -15,6 +15,13 @@ $("document").ready(function(){
   });
 
 
+
+  $(".all-menu").click(function(){
+    $(".menu").toggleClass('on');
+    $(".menu-btn").toggleClass('checked');
+
+});
+
   $(".tab-menu ul li").eq(0).addClass("on")
 
     // 화면 처음 시작시 첫번째 탭 컨텐츠를 화면에서 출력
@@ -35,6 +42,11 @@ $("document").ready(function(){
 
         //어디서 선택자 끝나는지 잘보기 오타 잘보기 
     })
+
+
+
+
+
 
     
     const mainswiper = new Swiper(".main-banner",{
