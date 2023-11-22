@@ -400,7 +400,11 @@ input.search-text[type="search"]::-webkit-search-results-decoration {
 
 .vans-video{
     width: 100%;
-    padding-top: 10rem;
+    margin-top: 8rem;
+    padding-top: 5rem;
+    background-color: #f1f1f1;
+    padding-bottom: 5rem;
+
 
 }
 
@@ -413,11 +417,11 @@ input.search-text[type="search"]::-webkit-search-results-decoration {
 
 .vans-video h3{
     width: 75vw;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 3rem;
-
+    color:#333333;
 }
 
 .vans-video .video-wrap video{
@@ -432,12 +436,12 @@ input.search-text[type="search"]::-webkit-search-results-decoration {
 .vans-video .video-wrap a{
     width: 15vw;
     height: 2.8vw;
-    background-color: #d51920;
+    background-color: #ae1f23;
     font-size: 1.8rem; 
     display: block;
     margin: 0 auto;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
     line-height: 2.8vw;
     margin-top: 5rem;
     font-weight: 600;
