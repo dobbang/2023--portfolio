@@ -947,6 +947,7 @@ transition: 0.9s;
     outline: none;
     line-height: 50px;
     letter-spacing: 3px;;
+    margin-top: 20px;
 }
 
 
@@ -979,14 +980,14 @@ transition: 0.9s;
     font-size: 15px;
     font-family:  'SUIT-Regular';
     line-height: 22px;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
 }
 
 .contact .contact-wrap img{
     width: 450px;
     margin: 0 auto;
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
 }
 
