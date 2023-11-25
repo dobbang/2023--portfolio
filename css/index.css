@@ -327,7 +327,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     background-color: #f1f1f1;
     border-top: 35px solid #f0b8c3;
     margin: 15px;
-    margin-top: 150px;
+    margin-top: 70px;
 }
 
 
@@ -338,6 +338,12 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     transform: translateX(-10%);
 }
 
+.name-logo{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 10px;
+}
 
 
 .about .about-wrap .web-photo{
