@@ -694,6 +694,14 @@ input#search[type="search"]::-webkit-search-results-decoration {
     background-color: #f6f6f6;
 }
 
+.ad .ad-content:hover{
+    transform: translateY(-12px);
+    transition: 0.4s;
+}
+
+
+
+
 .ad .ad-wrap{
     /* background-color: #b5b5b5; */
     width: 1080px;
@@ -711,8 +719,9 @@ input#search[type="search"]::-webkit-search-results-decoration {
     color: #fff;
     line-height: 30px;
     font-size: 14px;
-    margin-left: 260px;
-    margin-top: 15px;
+    margin-left:15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .ad .ad-content:nth-of-type(2){
