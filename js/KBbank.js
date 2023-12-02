@@ -1,8 +1,8 @@
 $("document").ready(function(){
 
     $('#fullpage').fullpage({
-        sectionsColor: [ "#fff","#fff","#f1f0ef","#fff","#6e6757"],
-        anchors: ["main","Publishing2","Publishing3","contact", "footer"]
+        sectionsColor: [ "#fff","#fff","#fff","#f1f0ef","#fff","#6e6757"],
+        anchors: ["main","Publishing2","Publishing666","Publishing3","contact", "footer"]
       });
 
     $(".hambuger").click(function(){
@@ -65,6 +65,25 @@ $("document").ready(function(){
         },
         
         })
+        
+
+        const solutionswiper = new Swiper(".solution-slider",{
+          loop: true,
+        slidesPerView: 3,   //한번에 보이는 갯수
+          autoplay: { 
+              delay: 2000
+          },
+          spaceBetween: 40, //마진
+          
+          })
+
+
+
+
+
+
+
+
 
     const footerswiper = new Swiper(".footer-slide",{
         loop: true,
