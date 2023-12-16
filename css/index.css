@@ -1284,17 +1284,41 @@ transition: 0.9s;
         width: 90%;
     }
 
+
+    .about .about-wrap .web-introduce .conetent-wrap .wep-main{
+        margin-top: 10px;
+    }
+
+
+
+    
+    .about .about-wrap .web-introduce .conetent-wrap .wep-main span{
+        margin-top: 10px;
+    }
+
+
+    
+    .about .about-wrap .web-introduce .conetent-wrap .content1 {
+        margin-top: 50px;
+    }
+
+
+    .about .about-wrap .web-introduce .conetent-wrap .content2{
+        margin-top: 90px;
+    }
     .about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap span{
         font-size: 11px;
     }
 
     .about .about-wrap .web-introduce .conetent-wrap .content2 p{
-        font-size: 10px;
+        font-size: 9px;
         letter-spacing: 0px;
 
     }
 
 
+
+    
     .about .about-wrap .web-introduce .conetent-wrap .content3 span{
         font-size: 11px;
     }
