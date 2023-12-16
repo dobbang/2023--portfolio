@@ -37,6 +37,9 @@ $("document").ready(function(){
     })
 
 
+
+
+
     const sliponswiper = new Swiper(".classic-slider1", {
         loop: true,
         navigation:{

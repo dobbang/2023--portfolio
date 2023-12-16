@@ -456,10 +456,43 @@ input.search-text[type="search"]::-webkit-search-results-decoration {
  
 /* 클래식 컨텐츠 시작 */
 
+
+
 .classic-content{
     width: 100%;
     padding-top: 14rem;
 }
+
+
+
+.marquee-wrap{
+    position: relative;
+    overflow: hidden;
+    background-color: #535353;
+    padding: 20px;
+
+}
+
+
+.marquee{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    font-size: 32px;
+}
+
+.marquee li{
+    position:relative;
+    padding:0.5rem 3rem 0.8rem;
+    background:#fff;
+    border:1px solid #aaa;
+    border-radius:4px;
+}
+
+
 
 .classic-content .content-wrap{
     width: 72vw;
