@@ -689,6 +689,57 @@ transition: 0.9s;
 
 
 
+.introduce{
+    background: url(/images/pf/main\ back3.png) no-repeat center / cover ;
+}
+
+
+
+.modal-introduce .flexible-wrap{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.modal-introduce p{
+    color: #383858;
+}
+
+
+.modal-introduce h4{
+    color: #65659b;
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 70px;
+    position: relative;
+
+}
+.modal-introduce span{
+    color: #383858;
+    display: block;
+    font-size: 18px;
+    z-index: 99;
+}
+
+.modal-introduce span:nth-of-type(1){
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.modal-introduce span:nth-of-type(2){
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.modal-introduce .flexible-wrap .flex-img img{
+    position: absolute;
+    top: 17%;left: 50%;
+    z-index: 0;
+}
+
+
 /* work 시작  */
 
 
