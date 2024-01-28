@@ -323,6 +323,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     margin: 0 auto;
     height: 600px;
     padding-bottom: 10px;
+    z-index: 99;
 
 }
 
@@ -363,8 +364,10 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     background-color: #383858;
     border-radius: 50%;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 10px;
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.4);
+    line-height: 35px;
+    text-align: center; 
     
 }
 
@@ -399,7 +402,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     position: absolute;
     top: 75px;
     left: 40px;
-    z-index: 99;
+    z-index: 80;
 }
 .about .about-wrap .web-photo .content .text-balloon2{
     width: 140px;
@@ -413,7 +416,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     height: 15px;
     background-color: #383853;
     position: absolute;
-    z-index: 99;
+    z-index: 80;
     transform: rotate(-45deg);
     top: 32px;
     left: 95px;
@@ -454,12 +457,12 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 }
 
 
-.about .about-wrap .web-photo .content .img-box .bottom  .dot4{
-    width: 40px;
+.about .about-wrap .web-photo .content .img-box .bottom  .text-balloon3{
+    width: 240px;
     height: 40px;
     background-color: #383853;
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.4);
-    border-radius: 50%;
+    border-radius: 20px;
     text-align: center;
     line-height: 40px;
     float: right;
@@ -467,14 +470,15 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 }
 
-.about .about-wrap .web-photo .home-button{
-    width: 48px;
-    height: 48px;
-    background-color: #fff;
-    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.4);
-    margin: 0 auto;
-    border-radius: 50%;
-    margin-top: 10px;
+.about .about-wrap .web-photo .content .img-box .bottom  .text-balloon3::after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: #383853;
+    transform: rotate(-43deg);
+    left: 55px;
+    top: -5px;
 }
 
 
@@ -603,7 +607,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     text-align: center;
     margin: 40px 0 15px 0;
     position: relative;
-    z-index: 99;
+    z-index: 80;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.16);
     line-height: 16px;
 }
@@ -659,7 +663,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     text-align: center;
     position: relative;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.16);
-    z-index: 99;
+    z-index: 80;
     line-height: 18px;
 
 }
@@ -772,19 +776,29 @@ transition: 0.9s;
 
 
 
-.introduce{
+.modal-introduce{
     background: url(/images/pf/main\ back3.png) no-repeat center / cover ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
 }
 
 
 
 .modal-introduce .flexible-wrap{
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
+    /* background-color: #edd0b4; */
 }
 
 .modal-introduce p{
     color: #383858;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: 1.5s;
 }
 
 
@@ -795,6 +809,8 @@ transition: 0.9s;
     font-weight: 700;
     line-height: 70px;
     position: relative;
+    margin-top: 200px;
+    transition: 1.5s;
 
 }
 .modal-introduce span{
@@ -802,10 +818,12 @@ transition: 0.9s;
     display: block;
     font-size: 18px;
     z-index: 99;
+    font-size: 16px;
+    transition: 1.5s;
 }
 
 .modal-introduce span:nth-of-type(1){
-    margin-top: 10%;
+    margin-top: 7%;
     margin-bottom: 3%;
 }
 
@@ -818,8 +836,33 @@ transition: 0.9s;
 
 .modal-introduce .flexible-wrap .flex-img img{
     position: absolute;
-    top: 17%;left: 50%;
+    top:16%;left:60%;
     z-index: 0;
+    width: 24%;
+}
+
+
+.modal-introduce{
+    display: none;
+}
+
+
+.modal-introduce.on{
+    display: block;
+    transition: 1.5s;
+}
+
+.about .window-wrap{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.about .window-wrap.on{
+    display: block;
 }
 
 

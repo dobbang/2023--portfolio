@@ -25,11 +25,29 @@ document.documentElement.addEventListener('touchend', function (event) {
    
   
   $('#fullpage').fullpage({
-    sectionsColor: ["#66669a", "white", "white", "white", "white","white","white","#8b8bc8"],
-    anchors: ["home", "about", "introduce", "Publishing1", "Publishing2","Publishing3", "clone","contactzone"],
+    sectionsColor: ["#66669a", "white", "white", "white","white","white","#8b8bc8"],
+    anchors: ["home", "about", "Publishing1", "Publishing2","Publishing3", "etc","contact"],
+
     responsiveWidth: 1023,
-    
+
+
 });
+
+
+$(".about .content").click(function(){
+  $(".modal-introduce").toggleClass('on');
+  $(".about .window-wrap").toggleClass('on');
+});
+
+
+
+
+$(".about .modal-introduce").click(function(){
+  $(".modal-introduce").toggleClass('on');
+  $.fn.fullpage.setAllowScrolling(true)
+});
+
+
 
 
 
@@ -123,43 +141,4 @@ const swiper = new Swiper(".clonecoding", {
 
 })
     
-
-
-function makeItRain() {
-  document.getElementById("makeItRain").disabled = true;
-  var end = Date.now() + 2 * 1000;
-
-  var colors = ['#bb0000', '#ffffff'];
-
-  function frame() {
-    confetti({
-      particleCount: 2,
-      angle: 60,
-      spread: 55,
-      origin: { x: 0 },
-      colors: colors });
-
-    confetti({
-      particleCount: 2,
-      angle: 120,
-      spread: 55,
-      origin: { x: 1 },
-      colors: colors });
-
-
-    if (Date.now() < end) {
-      requestAnimationFrame(frame);
-    } else
-    {
-      document.getElementById("makeItRain").disabled = false;
-    }
-  };
-  frame();
-}
-
-function randomInRange(min, max) {
-  return Math.random() * (max - min) + min;
-}
-
-
 
