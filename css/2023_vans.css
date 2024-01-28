@@ -123,7 +123,7 @@ html{font-size: 62.5%}
     position: relative;
     margin: 0 auto;
     margin-top: 9vw;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 .nav .nav-wrap .sub-nav .search-content .search-text{
     z-index: 999;
@@ -133,7 +133,7 @@ html{font-size: 62.5%}
     font-size: 2.4rem;
     z-index: 0;
     float: left;
-    background-color: darkkhaki;
+    /* background-color: darkkhaki; */
 }   
 
 .nav .nav-wrap .sub-nav .search-content .magnifying{
@@ -386,7 +386,7 @@ input.search-text[type="search"]::-webkit-search-results-decoration {
     background-color: #f0f0f0;
 }
 
-.best .swiper-scrollbar {
+.best .swiper-scrollbar{
     border-radius: 10px;
     position: relative;
     -ms-touch-action: none;
