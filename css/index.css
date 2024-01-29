@@ -1329,7 +1329,6 @@ transition: 0.9s;
 .about .about-wrap{
     width: 80%;
     margin: 0 auto;
-    background-color: #abc3b7;
 }
 
 .about .about-wrap .web-introduce{
@@ -1347,7 +1346,6 @@ transition: 0.9s;
 .about .about-wrap .web-introduce .conetent-wrap .wep-main{
     width: 100%;
     height: 20%;
-    /* background-color: #65659b; */
 }
 .about .about-wrap .web-introduce .conetent-wrap .wep-main img{
     width: 100%;
@@ -1363,7 +1361,7 @@ transition: 0.9s;
 
 
 .about .about-wrap .web-introduce .conetent-wrap .content1{
-    width: 50%;
+    width: 40%;
     padding-left: 0;
     height: 100%;
 }
@@ -1371,12 +1369,19 @@ transition: 0.9s;
 .about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap{
     width: 100%;
 }
+.about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap span{
+    font-size: 13px;
+}
 
+.about .about-wrap .web-introduce .conetent-wrap .content1 p{
+    font-size: 15px;
+}
 
 
 .about .about-wrap .web-introduce .conetent-wrap .content2{
-    width: 40%;
-    margin-top: 4%;
+    width: 50%;
+    margin-top: 8%;
+    /* background-color: #383853; */
 }
 
 
@@ -1386,29 +1391,77 @@ transition: 0.9s;
     height: 35px;
 }
 
+.about .about-wrap .web-introduce .conetent-wrap .content2 .talk1::after{
+    top: 44px;
+}
+
 .about .about-wrap .web-introduce .conetent-wrap .content2 .talk2{
     width: 50%;
     margin-left: 45%;
+    z-index: 70;
+}
+
+.about .about-wrap .web-introduce .conetent-wrap .content2 .talk2::after{
+    top: 30px;
+    z-index: 0;
 }
 
 .about .about-wrap .web-introduce .conetent-wrap .content2 .talk3{
-    width: 40%;
+    width: 40%;   
 }
 
-
+.about .about-wrap .web-introduce .conetent-wrap .content2 .talk3 p{
+    font-size: 14px;
+}
 
 .about .about-wrap .web-introduce .conetent-wrap .content3 {
-    padding-left: 0;
-    /* background-color: #65659b; */
+    width: 45%;
 }
 
+
+.about .about-wrap .web-introduce .conetent-wrap .content3 span{
+    font-size: 13px;
+
+}
+.about .about-wrap .web-introduce .conetent-wrap .content3 p{
+    font-size: 15px;
+}
 .about .about-wrap .web-introduce .conetent-wrap .content3 .text-wrap{
 
     width: 100%;
 }
+
+
+
+.about .about-wrap .web-introduce .conetent-wrap .content2 p{
+    font-size: 12px;
+    letter-spacing: 0;
+}
+
+
+
+
 .about .about-wrap .content-wrap{
     display: none;
 }
+
+.content4{
+    width: 40%;
+    padding-left: 0%;
+}
+
+.about .about-wrap .web-introduce .conetent-wrap .content4 .text-wrap{
+    width: 100%;
+}
+
+
+.about .about-wrap .web-introduce .conetent-wrap .content4  .text-wrap span{
+    font-size: 13px;
+margin-bottom: 2px;}
+
+.about .about-wrap .web-introduce .conetent-wrap .content4 p{
+    font-size: 15px;}
+
 
 
 .about .flex{
@@ -1509,13 +1562,22 @@ transition: 0.9s;
     width: 80%;
 }
 
+.contact{
+    width: 100%;
+    height: 120%;
+    background: url(/images/pf/main\ back3.png) no-repeat center / cover ;
+}
 
 .contact .contact-wrap{
-    width: 80%;
+    width: 100%;
 }
 
 .contact .contact-wrap p{
     width: 100%;
+}
+
+.contact .contact-wrap p:nth-of-type(1){
+    margin-top: 10%;
 }
 
 
@@ -1541,18 +1603,48 @@ transition: 0.9s;
         margin-top: 10px;
     }
 
-
-    
-    .about .about-wrap .web-introduce .conetent-wrap .content1 {
-        margin-top: 50px;
+    .about .about-wrap .web-introduce .conetent-wrap .content1 p{
+        font-size: 12px;
     }
 
+    .about .about-wrap .web-introduce .conetent-wrap .content3 p{
+        font-size: 12px;
+    }
+
+    .about .about-wrap .web-introduce .conetent-wrap .content4 p{
+        font-size: 12px;
+    }
+    
+
+
+    .about .about-wrap .web-introduce .conetent-wrap .content4 .text-wrap span{
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    .about .about-wrap .web-introduce .conetent-wrap .content3 .text-wrap span{
+        font-size: 10px;
+        padding-left: 10px;
+    }
 
     .about .about-wrap .web-introduce .conetent-wrap .content2{
-        margin-top: 90px;
+        margin-top: 40px;
     }
     .about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap span{
-        font-size: 11px;
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    .about .about-wrap .web-introduce .conetent-wrap .content2 .talk1 p{
+        font-size: 9px;
+        line-height: 13px;
+    }
+    .about .about-wrap .web-introduce .conetent-wrap .content2 .talk2 p{
+        font-size: 9px;
+        line-height: 13px;
+    }
+    .about .about-wrap .web-introduce .conetent-wrap .content2 .talk3 p{
+        font-size: 9px;
+        line-height: 13px;
     }
 
     .about .about-wrap .web-introduce .conetent-wrap .content2 p{
@@ -1589,7 +1681,7 @@ transition: 0.9s;
 
     .contact .contact-wrap img{
         width: 60%;
-        margin-bottom: 50%;
+        margin-bottom: 20%;
     }
 
     .contact .contact-wrap p:nth-last-of-type(1){
