@@ -30,8 +30,21 @@ document.documentElement.addEventListener('touchend', function (event) {
 
     responsiveWidth: 1023,
 
-
+    onLeave : function(anchorLink, index){ 
+      if (index == 1){
+        $(".btn-line").css("background-color", "#fff" )
+        $(".title").css("color", "#fff" )
+        $(".title").css("font-size", "25px" )
+      }else{
+        $(".btn-line").css("background-color", "#7c7bb1" )
+        $(".title").css("color", "#7c7bb1" )
+        $(".title").css("font-size", "15px" )
+      }	
+    }
 });
+
+
+
 
 
 $(".about .content").click(function(){
