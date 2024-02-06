@@ -429,6 +429,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     width: 100%;
     display: block;
     margin: 0 auto;
+    /* background-color: #383858; */
 }
 
 .about .about-wrap .web-photo .content .img-box .bottom{
@@ -459,7 +460,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 
 .about .about-wrap .web-photo .content .img-box .bottom  .text-balloon3{
-    width: 240px;
+    width: 96%;
     height: 40px;
     background-color: #383853;
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.4);
@@ -528,7 +529,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     left: 50%;
     transform: translateY(-40%);
     transform: translateX(-50%);
-    width: 600px;
+    width: 70%;
     height: 40px;
     background-color: #fff;
     line-height: 40px;
@@ -553,7 +554,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 
 .about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap{
-    width: 400px;
+    width: 96%;
     background-color: #fff;
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -706,11 +707,12 @@ transition: 0.9s;
     width: 50%;
     height: 13vw;
     padding-left: 4.7%;
+    
 }
 
 
 .about .about-wrap .web-introduce .conetent-wrap .content3 .text-wrap{
-    width: 450px;
+    width: 90%;
     height: 160px;
     color: #787777;
     background-color: #fff;
@@ -721,11 +723,17 @@ transition: 0.9s;
 .about .about-wrap .web-introduce .conetent-wrap .content3 span{
     color: #787777;
     display: block;
-    font-size: 16px;
-    padding-top: 20px;
     font-weight: 600;
+    padding-bottom: 10px;
     padding-left: 30px;
+    font-size: 16px;
 }
+
+.about .about-wrap .web-introduce .conetent-wrap .content3 .text-wrap span:nth-child(1){
+    /* background-color: #383853; */
+    padding-top: 20px;
+}
+
 
 .about .about-wrap .web-introduce .conetent-wrap .content3 p{
     color: #383858;
@@ -747,7 +755,7 @@ transition: 0.9s;
 
 
 .about .about-wrap .web-introduce .conetent-wrap .content4 .text-wrap{
-    width: 400px;
+    width: 96%;
     background-color: #fff;
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -1641,6 +1649,7 @@ margin-bottom: 2px;}
     .about .about-wrap .web-introduce .conetent-wrap .content2 .talk2 p{
         font-size: 9px;
         line-height: 13px;
+        z-index: 99;
     }
     .about .about-wrap .web-introduce .conetent-wrap .content2 .talk3 p{
         font-size: 9px;
