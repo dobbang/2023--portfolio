@@ -1365,6 +1365,7 @@ transition: 0.9s;
     top: 50%;
     left: 50%;
     transform: translate(-50%);
+    font-size: 9px;
 }
 
 
@@ -1378,11 +1379,11 @@ transition: 0.9s;
     width: 100%;
 }
 .about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap span{
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .about .about-wrap .web-introduce .conetent-wrap .content1 p{
-    font-size: 15px;
+    font-size: 14px;
 }
 
 
@@ -1419,7 +1420,7 @@ transition: 0.9s;
 }
 
 .about .about-wrap .web-introduce .conetent-wrap .content2 .talk3 p{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .about .about-wrap .web-introduce .conetent-wrap .content3 {
@@ -1428,17 +1429,25 @@ transition: 0.9s;
 
 
 .about .about-wrap .web-introduce .conetent-wrap .content3 span{
-    font-size: 13px;
+    font-size: 12px;
 
 }
 .about .about-wrap .web-introduce .conetent-wrap .content3 p{
-    font-size: 15px;
+    font-size: 14px;
 }
 .about .about-wrap .web-introduce .conetent-wrap .content3 .text-wrap{
 
     width: 100%;
 }
 
+
+.about .about-wrap .web-introduce .conetent-wrap .content4 span{
+    font-size: 12px;
+
+}
+.about .about-wrap .web-introduce .conetent-wrap .content4 p{
+    font-size: 14px;
+}
 
 
 .about .about-wrap .web-introduce .conetent-wrap .content2 p{
