@@ -14,10 +14,14 @@
     <script src="js/q-nent.js"></script>
 </head>
 <body>
+
+
+
     <div class="sub-header">
+        <div class="bar"></div>
         <div class="sub-header-wrap">
             <ul>
-                <li><a href="#">한국인력공단</a></li>
+                <li><a href="#" class="sub-title">한국인력공단</a></li>
                 <li><a href="#">로그인</a></li>
                 <li><a href="#">회원가입</a></li>
             </ul>
@@ -33,12 +37,36 @@
             </div>
             <div class="header-left">
                 <div class="header-left-wrap">
-                    <ul>
-                        <li><a href="#">국가자격시험</a></li>
-                        <li><a href="#">전문자격시험</a></li>
-                        <li><a href="#">자격증/확인서</a></li>
-                        <li><a href="#">고객지원</a></li>
-                        <li><a href="#">전체메뉴 <i class="fa-solid fa-angle-down"></i></a></li>
+                    <ul class="main-nav">
+                        <li><a href="#">국가자격시험</a>
+                            <div class="submenu">
+                                <div class="submenu-wrap">
+                                    <div class="sub-submenu-title">
+                                        <p>서브메뉴타이틀</p>
+                                        <p>서브메뉴 타이틀 설명</p>
+                                    </div>
+                                    <ul class="sub-submenu-text">
+                                        <li><a href="#">#</a><span>원서접수</span>
+                                        <ul>
+                                            <li><a href="#">원서접수안내</a></li>
+                                            <li><a href="#">원서접수신청</a></li>
+                                            <li><a href="#">원서접수현황</a></li>
+                                            <li><a href="#">장애유형별편의제공안내</a></li>
+                                        </ul></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">전문자격시험</a>
+                            <div class="submenu"></div>
+                        </li>
+                        <li><a href="#">자격증/확인서</a>
+                            <div class="submenu"></div>
+                        </li>
+                        <li><a href="#">고객지원</a>
+                            <div class="submenu"></div>
+                        </li>
+                        <li><a href="#" class="all-menu">전체메뉴 <i class="fa-solid fa-bars"></i> </a></li>
                     </ul>
                 </div>
             </div>
@@ -309,6 +337,7 @@
                     </div>
 
                     <div class="quick-menu-wrap">
+                        <!-- <h3>바로가기</h3> -->
                         <div class="quick-menu">
                             <div class="quick-content">
                                 <img src="images/q-net/write_icon.png" alt="자격증 신청">

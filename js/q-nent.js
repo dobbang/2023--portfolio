@@ -18,6 +18,24 @@ $("document").ready(function(){
         })
 
 
+        // aside 고정
+        $(window).scroll(function(){
+            let pos = $(window).scrollTop(); 
+            let current = (pos/($(document).outerHeight()-$(window).height())) * 100;
+
+            $(".bar").width(current+"%");
+            
+            if(pos >= 120){
+                $(".aside").addClass("on")
+            }else{
+                $(".aside").removeClass("on")
+            }
+        
+
+        })
+
+
+
         // tab-menu
 
         $('.tab-title-ul li').eq(0).addClass('on')
