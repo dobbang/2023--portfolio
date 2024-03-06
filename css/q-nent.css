@@ -117,31 +117,77 @@ a{text-decoration: none; color: black;}
 .header-wrap .header-left .main-nav .submenu{
     position: absolute;
     width: 100%;
-    background-color: #a6a6a6;
+    background-color: #fff;
     top: 87px;
     left: 0;
+    display: none;
 }
+
+.header-wrap .header-left .main-nav .submenu.on{
+    display: block;
+}
+
 
 .header-wrap .header-left .main-nav .submenu .submenu-wrap{
     width: 1400px;
-    background-color: darkcyan;
+    background-color: #fff;
     margin: 0 auto;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
 
 }  
 
 
 .header-wrap .header-left .main-nav .submenu .sub-submenu-title{
-    width: 25%;
-    background-color: fuchsia;
+    width: 16%;
+    /* background-color: fuchsia; */
 }
+
 
 
 .header-wrap .header-left .main-nav .submenu .sub-submenu-text{
-    width: 25%;
-    background-color: darkseagreen;
+    width: 73%;
+    /* background-color: darkseagreen; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 
+
+
+.header-wrap .header-left .main-nav .submenu .sub-submenu-text .kategorie>a{
+    border: 1px solid #e4e8eb;
+    width: 200px;
+    height: 40px;
+    display: block;
+    /* text-align: center; */
+    line-height: 40px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+
+.header-wrap .header-left .main-nav .submenu .sub-submenu-text .kategorie ul{
+    margin: 20px 0;
+}
+
+.header-wrap .header-left .main-nav .submenu .sub-submenu-text .kategorie{
+    width: 32%;
+}
+
+.header-wrap .header-left .main-nav .submenu .sub-submenu-text .kategorie ul li a{
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.header-wrap .header-left .main-nav .submenu .sub-submenu-text .kategorie ul li a::before{
+    content: '- ';
+
+}
 
 /* main 메인 시작 */
 
