@@ -17,19 +17,6 @@ $("document").ready(function(){
         
         })
 
-        const $main_nav = $('.main-nav-text')
-
-        $main_nav.hover(function(){
-            //마우스 ㅇ오버
-            $('.submenu').addClass("on") ; 
-        }, function(){
-            //마우스 아웃
-            $('.submenu').removeClass("on") ;
-        })
-
-
-
-
 
 
         // aside 고정
