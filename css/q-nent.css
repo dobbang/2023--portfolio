@@ -159,6 +159,10 @@ a{text-decoration: none; color: black;}
 
 
 
+.header-wrap .header-left .main-nav .submenu .sub-submenu-title p{
+    font-size: 24px;
+}
+
 .header-wrap .header-left .main-nav .submenu .sub-submenu-text{
     width: 73%;
     display: flex;
@@ -1094,7 +1098,6 @@ position: relative;
 .footer .footer-wrap .bottom-footer{
     width: 1400px;
     margin: 0 auto;
-    /* background-color: #b2e1f5; */
     display: flex;
     align-items: center;
 } 
