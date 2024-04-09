@@ -4,6 +4,15 @@ $("document").ready(function(){
 
 
 
+    $(".main-nav li").mouseover(function(){
+        $(this).find($(".submenu")).stop().slideDown();
+    })
+
+    $(".main-nav li").mouseout(function(){
+        $(this).find($(".submenu")).stop().slideUp();
+    })
+
+
     const mainswiper = new Swiper(".main-slider",{
         loop: true,
         autoplay: { 
