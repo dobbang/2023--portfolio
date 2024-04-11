@@ -37,10 +37,12 @@ $("document").ready(function(){
             
             if(pos >= 120){
                 $(".aside").addClass("on")
+            }else if(pos >= 1100){
+                alert("Gg")
             }else{
                 $(".aside").removeClass("on")
             }
-        
+
 
         })
 
@@ -66,7 +68,15 @@ $("document").ready(function(){
         })
 
 
-        
+        //푸터 select options
+
+        $(".select-box-wrap").click(function(){
+            $(".options").toggleClass("on");
+        })
 
         
+
+        $(".options").mouseover(function(){
+            $(".options").addClass("on");
+        })
 });
