@@ -37,12 +37,18 @@ $("document").ready(function(){
             
             if(pos >= 120){
                 $(".aside").addClass("on")
-            }else if(pos >= 1100){
-                alert("Gg")
             }else{
                 $(".aside").removeClass("on")
             }
 
+
+            if(pos > 1560){
+                $(".main-wrap-aside").addClass("down")
+            }else{
+                $(".main-wrap-aside").removeClass("down")
+            }
+
+            console.log(pos)
 
         })
 
