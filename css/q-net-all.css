@@ -182,7 +182,7 @@ a{text-decoration: none; color: black;}
     line-height: 40px;
     padding-left: 20px;
     font-size: 17px;
-    background-color: fff;
+    background-color: #fff;
 }
 
 .header-wrap .header-left .main-nav .submenu .sub-submenu-text .kategorie>a:hover{
@@ -264,10 +264,11 @@ a{text-decoration: none; color: black;}
     gap: 40px;
 }
 .all-menu-content-box-wrap > p{
-    font-size: 24px;
+    font-size: 25px;
     padding: 30px 0 70px 0;
     text-align: center;
     border-top: 1px solid #e4e8eb;
+    font-weight: 600;
 }
 
 
@@ -292,18 +293,25 @@ a{text-decoration: none; color: black;}
     display: block;
     line-height: 40px;
     padding-left: 20px;
-    font-size: 17px;
-    background-color: #e2f2f9;
+    font-size: 16px;
+    background-color: #043255;
     margin-bottom: 10px;
+    color: #fff;
+    font-weight: 400;
 }
 
 
 .all-menu-content-wrap .all-menu-content-box  .all-menu-content-box-wrap .sub-submenu-title p{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
     margin-right: 20px;
     height: 40px;
+    line-height: 40px;
+}
+
+.all-menu-content-wrap .all-menu-content-box  .all-menu-content-box-wrap i{
+    font-size: 12px;
     line-height: 40px;
 }
 
@@ -334,7 +342,6 @@ a{text-decoration: none; color: black;}
 
 .all-menu-content-wrap .all-menu-content-box  .sub-submenu-text  .kategorie {
     width: 25%;
-    /* background-color: aquamarine; */
 }
 
 
@@ -346,6 +353,10 @@ a{text-decoration: none; color: black;}
     position: relative;
 }
 
+
+.all-menu-content-wrap .all-menu-content-box  .sub-submenu-text .kategorie ul li a:hover{
+    text-decoration: underline;
+}
 
 .all-menu-content-wrap .all-menu-content-box  .sub-submenu-text .kategorie ul{
     margin: 12px 0;
@@ -371,6 +382,9 @@ a{text-decoration: none; color: black;}
     margin-top: 10px;
 }
 
+.all-menu-content-box .list li a:hover{
+    text-decoration: underline;
+}
 .all-menu-content-box .kategorie i{
     font-size: 11px;
     float: right;

@@ -3,7 +3,6 @@ $("document").ready(function(){
 
 
 
-
     $(".main-nav li").mouseover(function(){
         $(this).find($(".submenu")).stop().slideDown();
     })

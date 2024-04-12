@@ -64,6 +64,8 @@ a{text-decoration: none; color: black;}
     line-height: 40px;
     font-size: 26px;
 }
+
+
 .bar{
     position: fixed;
     width: 0%;
@@ -92,6 +94,10 @@ a{text-decoration: none; color: black;}
     font-size: 15px;
     padding:0px 20px;
   
+}
+
+.sub-header .sub-header-wrap ul a:hover{
+    text-decoration: underline;
 }
 
 
@@ -351,7 +357,7 @@ a{text-decoration: none; color: black;}
 
 
 .main .main-wrap .main-wrap-cont .main-slider .silde-text{
-    width: 355px;
+    width: 430px;
     height: 65px;
     background-color: #043255;
     border-radius: 15px 0;
@@ -363,6 +369,8 @@ a{text-decoration: none; color: black;}
 
 .main .main-wrap .main-wrap-cont .main-slider .silde-text a{
     text-align: center;
+    width: 330px;
+    display: block;
     line-height: 65px;
     margin: 0 auto;
     font-size: 18px;
@@ -395,7 +403,7 @@ a{text-decoration: none; color: black;}
     margin-top: 150px;
     margin: 0 auto;
     border-radius: 20px;
-    background-color: #e8f1f5;
+    background-color: #f2f4f8;
 }
 
 .tab-content .tab-content-wrap{
@@ -410,8 +418,9 @@ a{text-decoration: none; color: black;}
     height: 70px;
     width: 90%;
     margin: 0 auto;
+    padding: 0 25px;
     padding-top: 30px;
-    border-bottom: 1px solid #a6a6a6;
+    border-bottom: 1px solid #d8d8d8;
 }
 
 
@@ -439,10 +448,11 @@ a{text-decoration: none; color: black;}
 }
 
 .tab-content .tab-content-wrap .tab-title .tab-title-ul li.on a{
-    background-color: #fff;
+    background-color: #043255;
     border-radius: 40px;
     height: 50px;
     line-height: 50px;
+    color: #fff;
 }
 
 .tab-content .tab-content-wrap .title-button i{
@@ -485,18 +495,18 @@ a{text-decoration: none; color: black;}
 
 
 .tab-content .tab-content-wrap .tab-text .tab-text-content .main-day-wrap .day{
-    width: 120px;
-    height: 100px;
-    background-color: #Fff;
-    border: 1px solid #d1d9e0;
-    border-radius: 30px;
+    width: 100px;
+    height: 80px;
+    background-color: #fdfdfd;
+    border: 1px solid #c6d6e4;
+    border-radius: 20px;
 }
 
 .tab-content .tab-content-wrap .tab-text .tab-text-content .main-day-wrap .day span{
     font-size: 25px;
     display: block;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 12px;
     font-weight: 500;
     color: #000;
 }
@@ -504,7 +514,7 @@ a{text-decoration: none; color: black;}
 .tab-content .tab-content-wrap .tab-text .tab-text-content .main-day-wrap .day p{
     display: block;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 12px;
 }
 
@@ -517,7 +527,7 @@ a{text-decoration: none; color: black;}
 .tab-content .tab-content-wrap .tab-text .tab-text-content .main-day-wrap .day-text span{
     display: block;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 17px;
     font-weight: 500;
 }
 
@@ -528,6 +538,12 @@ a{text-decoration: none; color: black;}
     cursor: pointer;
 
 }
+
+.tab-content .tab-content-wrap .tab-text .tab-text-content .main-day-wrap .day-text p:hover{
+    text-decoration: underline;
+}
+
+
 .tab-content .tab-content-wrap .tab-text .tab-text-content .day-eta-wrap{
     width:100%;
     margin: 0 auto;
@@ -539,13 +555,20 @@ a{text-decoration: none; color: black;}
     display: block;
     margin-top: 10px;
     font-size: 15px;
+    margin-left: 10px;
 }
 
 
 .tab-content .tab-content-wrap .tab-text .tab-text-content .day-eta-wrap .day-text span{
     font-size: 12px;
     color: #444444;
+    padding-right: 10px;
     
+}
+
+
+.tab-content .tab-content-wrap .tab-text .tab-text-content .day-eta-wrap .day-text:nth-of-type(2) span{
+    padding-right: 14px;
 }
 
 .tab-content .tab-content-wrap .tab-text .tab-text-content ul{
@@ -560,6 +583,7 @@ a{text-decoration: none; color: black;}
     font-size: 16px;
 }
 
+
 .tab-content .tab-content-wrap .tab-text .tab-text-content ul li::before{
     content: '';
     width: 2px;
@@ -569,7 +593,6 @@ a{text-decoration: none; color: black;}
     display: block;
     top: 50%;
     transform: translateY(-50%);
-    left: -8px;
     border-radius: 50%;
 }
 
@@ -580,7 +603,7 @@ a{text-decoration: none; color: black;}
 
 .tab-content .tab-content-wrap .tab-text .tab-text-content ul li span{
     float: right;
-    font-size: 14px;
+    font-size: 12px;
     color: #aaa;
 }
 
@@ -630,6 +653,11 @@ a{text-decoration: none; color: black;}
     margin-top: 80px;
 }
 
+
+.main .main-wrap .icon .icon-content:hover{
+    background-color: #ececec;
+    transition: 1s;
+}
 .main .main-wrap .icon h3{
     width: 85%;
     margin: 0 auto;
