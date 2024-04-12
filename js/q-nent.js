@@ -56,7 +56,7 @@ $("document").ready(function(){
                 $(".aside").addClass("down");
             }else{
                 $(".aside").removeClass("down");
-                $(".aside").removeClass("on");
+    
     
     
     
