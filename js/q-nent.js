@@ -36,22 +36,39 @@ $("document").ready(function(){
             $(".bar").width(current+"%");
             
             if(pos >= 120){
-                $(".aside").addClass("on")
-            }else{
-                $(".aside").removeClass("on")
+                $(".aside").addClass("on");
+            }else {
+                $(".aside").removeClass("on");
             }
 
-
-            if(pos > 1560){
-                $(".main-wrap-aside").addClass("down")
-            }else{
-                $(".main-wrap-aside").removeClass("down")
-            }
-
-            console.log(pos)
 
         })
 
+
+        $(window).scroll(function(){
+            curSc = $(document).scrollTop() + $(window).height();
+            body_height = $("body").height(); 
+            footer_height = $(".footer").height();
+            bottom_top = body_height - footer_height; 
+            
+            let pos = $(window).scrollTop(); 
+    
+            if(pos >= 1550){
+                $(".aside").addClass("down");
+            }else{
+                $(".aside").removeClass("down");
+                $(".aside").removeClass("on");
+    
+    
+    
+            }
+
+
+
+
+        })
+
+    
 
 
 
