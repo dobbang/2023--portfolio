@@ -6,7 +6,7 @@ $("document").ready(function(){
 setTimeout(function(){
   $('.loadingback').fadeOut()
 
-},3000)
+},4000)
 
   document.documentElement.addEventListener('touchstart', function (event) {
     if (event.touches.length > 1) {

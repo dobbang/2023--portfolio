@@ -125,10 +125,11 @@ transform: rotate(-45deg) translateY(-14px);
 
 
 .loadingback{
-    background-color: rgba(255, 255, 255, 0.693);
+    background-image: url(/images/pf/main-back2.png);
     width: 100%;
     height: 100%;
     position: absolute;
+    object-fit: cover;
     z-index: 1000;
     transition: 0.1s;
     text-align: center;
@@ -150,7 +151,7 @@ transform: rotate(-45deg) translateY(-14px);
   .loading:before{
     content: "";
     position: absolute;
-    background-color: #9b8bc9;
+    background-color: #fff;
     top: 0px;
     left: 0px;
     height: 40px;
@@ -166,7 +167,7 @@ transform: rotate(-45deg) translateY(-14px);
   
   .loading:after{
     content: "LOADING";
-    color: #fff;
+    color: #383853;
     font-size: 24px;
     position: absolute;
     text-align: center;
