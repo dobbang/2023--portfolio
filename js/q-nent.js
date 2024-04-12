@@ -86,25 +86,8 @@ $("document").ready(function(){
 
 
 
-        // Check
-
-        let check_true = document.getElementById("ckooie").checked ;
-        // Uncheck
-
-        let check_false= document.getElementById("ckooie").checked ;
-
-
-
-
 
         //팝업 쿠키 구현
-        $(document).ready(function(){
-            let cookie = document.cookie;
-           
-            if($("#ckooie".is(" : ckecked"))){
-                alert("gg")
-            }
-        })
 
 
 
