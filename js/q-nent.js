@@ -72,8 +72,11 @@ $("document").ready(function(){
 
 
 
-
-
+        //  팝업
+        $(".pop-up-close").click(function(){
+            $(".pop-up").hide();
+            $(".window").hide();
+        })
 
 
         // tab-menu
