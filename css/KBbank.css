@@ -630,12 +630,10 @@ input#search[type="search"]::-webkit-search-results-decoration {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    /* background-color: #edaf19; */
 }
 
 .section .content{
     width: 65%;
-    /* background-color: #efb838; */
 }
 
 .kids-wrap .content img{
@@ -681,7 +679,6 @@ input#search[type="search"]::-webkit-search-results-decoration {
 .ad{
     width: 1200px;
     margin: 0 auto;
-    /* background-color: cadetblue; */
     margin-top: 100px;
 }
 
@@ -729,13 +726,14 @@ input#search[type="search"]::-webkit-search-results-decoration {
 
 .ad .ad-content p{
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 900;
     margin-bottom: 10px;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 .ad .ad-content p:nth-child(3){
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 13.5px;
+    font-weight: 400;
+    letter-spacing: 0.03px;
 }
 
 
