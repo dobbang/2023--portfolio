@@ -44,38 +44,13 @@ $("document").ready(function(){
     })
 
 
-
-
-
-
-    
-    const mainswiper = new Swiper(".main-banner",{
+ 
+    const swiper = new Swiper(".main-banner", {
         loop: true,
-        effect : 'fade',
-        pagination: {
-            el: ".swiper-pagination",
-            type: "fraction",
-          },
-          navigation:{
-            nextEl:".swiper-button-next",
-            prevEl:" .swiper-button-prev",
-        },
         autoplay: { 
-            delay: 2000
+            delay: 2000 
         },
-        
-        })
-        
-
-        const solutionswiper = new Swiper(".solution-slider",{
-          loop: true,
-        slidesPerView: 3,   //한번에 보이는 갯수
-          autoplay: { 
-              delay: 2000
-          },
-          spaceBetween: 40, //마진
-          
-          })
+    })
 
 
 

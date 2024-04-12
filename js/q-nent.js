@@ -13,14 +13,14 @@ $("document").ready(function(){
     })
 
 
-    const mainswiper = new Swiper(".main-slider",{
-        loop: true,
+        const swiper = new Swiper(".main-slider", {
+            loop: true,
         autoplay: { 
             delay: 2000
         },
         navigation:{
             nextEl:".swiper-button-next",
-            prevEl:" .swiper-button-prev"
+            prevEl:".swiper-button-prev"
         },
         effect: "fade",
         
@@ -77,6 +77,37 @@ $("document").ready(function(){
             $(".pop-up").hide();
             $(".window").hide();
         })
+    
+        function closeToday() { 
+            setCookie( "popToday", "close" , 1  ); 
+            $(".pop-up-close").css("display", "none");
+            document.getElementById("popup_layer").style.display = "none";
+        }
+
+
+
+        // Check
+
+        let check_true = document.getElementById("ckooie").checked ;
+        // Uncheck
+
+        let check_false= document.getElementById("ckooie").checked ;
+
+
+
+
+
+        //팝업 쿠키 구현
+        $(document).ready(function(){
+            let cookie = document.cookie;
+           
+            if($("#ckooie".is(" : ckecked"))){
+                alert("gg")
+            }
+        })
+
+
+
 
 
         // tab-menu
