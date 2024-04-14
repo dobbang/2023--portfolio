@@ -42,6 +42,11 @@ $("document").ready(function(){
         autoplay: { 
             delay: 2000 
         },
+        navigation:{
+          nextEl:".swiper-button-next",
+          prevEl:" .swiper-button-prev"
+      },
+
     })
 
     const Sswiper = new Swiper(".solution-slider", {

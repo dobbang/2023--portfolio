@@ -374,16 +374,6 @@ input#search[type="search"]::-webkit-search-results-decoration {
 }
 
 
-
-.main .main-banner .swiper-pagination{
-    top: 480px;
-    left: 780px;
-    position: absolute;
-    width: 50px;
-    height: 40px;
-    font-size: 10px;
-}
-
 .main .main-banner .swiper-pagination span{
     font-size: 15px;
 }
@@ -395,25 +385,26 @@ input#search[type="search"]::-webkit-search-results-decoration {
 .main .main-banner .swiper-button-prev::after,
 .main .main-banner .swiper-button-next::after{
     background-color: #6e6757;
-    width: 16px;
-    height: 16px;
+    width: 25px;
+    height: 25px;
     color: #fff;
     font-size: 10px;
-    /* font-weight: 900; */
-    text-align: center;
-    line-height: 16px;
+    font-weight: 900;
+    line-height: 25px;
     position: absolute;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .main .main-banner .swiper-button-prev::after{
-    top: 198px;
-    left: 750px;
+    top:200px;
+    left: 1350px;
 }
 
 
 .main .main-banner .swiper-button-next::after{
-    top: 198px;
-    right: 1050px;
+    top: 200px;
+    right: 480px;
 }
 
 
