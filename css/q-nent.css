@@ -2,6 +2,7 @@
 *{margin: 0; padding: 0;  font-family: "Pretendard Variable";}
 ul{list-style: none;}
 a{text-decoration: none; color: black;}
+html{font-size: 62.5%}
 
 .pop-up{
     width: 550px;
@@ -36,7 +37,7 @@ a{text-decoration: none; color: black;}
 
 }
 .pop-up .pop-up-wrap span{
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .window{
@@ -62,7 +63,7 @@ a{text-decoration: none; color: black;}
     color: #043255;
     text-align: center;
     line-height: 40px;
-    font-size: 26px;
+    font-size: 2.6rem;
 }
 
 
@@ -91,7 +92,7 @@ a{text-decoration: none; color: black;}
 .sub-header .sub-header-wrap ul a{
     float: right;
     line-height: 50px;
-    font-size: 15px;
+    font-size: 1.5rem;
     padding:0px 20px;
   
 }
@@ -130,7 +131,7 @@ a{text-decoration: none; color: black;}
 }
 
 .header-wrap .header-right .title{
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 500;
     line-height: 86px;
 
@@ -152,7 +153,7 @@ a{text-decoration: none; color: black;}
 
 
 .header-wrap .header-left .main-nav .main-nav-text{
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 86px;
     width: 100%;
     height: 100%;
@@ -179,7 +180,7 @@ a{text-decoration: none; color: black;}
 }
 
 .header-wrap .header-left .main-nav i{
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-left: 2px;
 }
 
@@ -212,7 +213,7 @@ a{text-decoration: none; color: black;}
 
 
 .header-wrap .header-left .main-nav .kategorie i{
-    font-size: 11px;
+    font-size: 1.1rem;
     float: right;
     line-height: 40px;
     margin-right: 20px;
@@ -223,7 +224,7 @@ a{text-decoration: none; color: black;}
 }
 
 .header-wrap .header-left .main-nav .submenu .sub-submenu-title p{
-    font-size: 19px;
+    font-size: 1.9rem;
 }
 
 
@@ -247,7 +248,7 @@ a{text-decoration: none; color: black;}
     display: block;
     line-height: 40px;
     padding-left: 20px;
-    font-size: 17px;
+    font-size: 1.7rem;
     background-color: fff;
 }
 
@@ -269,7 +270,7 @@ a{text-decoration: none; color: black;}
 }
 
 .header-wrap .header-left .main-nav .submenu .sub-submenu-text .kategorie ul li a{
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 23px;
     margin-left: 10px;
     position: relative;
@@ -310,7 +311,7 @@ a{text-decoration: none; color: black;}
 }
 
 .header-wrap .header-left .main-nav .submenu .list li a{
-    font-size: 16px;
+    font-size: 1.6rem;
     display: inline-block;  
 }
 
@@ -332,11 +333,11 @@ a{text-decoration: none; color: black;}
     display: flex;
     justify-content: space-between;
     gap: 20px;
-
 }
 
 .main .main-wrap .main-wrap-cont{
     width: 70%;
+
 }
 
 
@@ -344,16 +345,22 @@ a{text-decoration: none; color: black;}
     margin-top: 30px;
     position: relative;
     text-align: center;
-    height: 620px;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .main .main-wrap .main-wrap-cont .main-slider img{
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.05);
     border-radius: 0px;
+    object-fit: cover;
+    width: 100%;
 
 }
 
+
+.main .main-wrap .main-wrap-cont .main-slider .swiper-slide{
+    width: 100%;
+}
 
 
 .main .main-wrap .main-wrap-cont .main-slider .silde-text{
@@ -363,7 +370,7 @@ a{text-decoration: none; color: black;}
     border-radius: 15px 0;
     position: absolute;
     top: 0px;
-    left: 50px;
+    left: 0;
 
 }
 
@@ -373,7 +380,7 @@ a{text-decoration: none; color: black;}
     display: block;
     line-height: 65px;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-left: 50px;
     font-weight: 500;
     color: #fff;
@@ -386,7 +393,7 @@ a{text-decoration: none; color: black;}
     width: 20px;
     height: 17px;
     color: #fff;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 900;
     text-align: center;
     line-height: 16px;
@@ -404,6 +411,7 @@ a{text-decoration: none; color: black;}
     margin: 0 auto;
     border-radius: 20px;
     background-color: #f2f4f8;
+
 }
 
 .tab-content .tab-content-wrap{
@@ -440,7 +448,7 @@ a{text-decoration: none; color: black;}
 
 .tab-content .tab-content-wrap .tab-title .tab-title-ul li p{
     line-height: 50px;
-    font-size: 20px;
+    font-size: 2.0rem;
     width: 100%;
     display: block;
     text-align: center;
@@ -461,7 +469,7 @@ a{text-decoration: none; color: black;}
     border-radius: 50%;
     line-height: 40px;
     text-align: center;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 
@@ -503,7 +511,7 @@ a{text-decoration: none; color: black;}
 }
 
 .tab-content .tab-content-wrap .tab-text .tab-text-content .main-day-wrap .day span{
-    font-size: 25px;
+    font-size: 2.5rem;
     display: block;
     text-align: center;
     margin-top: 12px;
@@ -515,7 +523,7 @@ a{text-decoration: none; color: black;}
     display: block;
     text-align: center;
     margin-top: 0px;
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 
@@ -526,14 +534,14 @@ a{text-decoration: none; color: black;}
 
 .tab-content .tab-content-wrap .tab-text .tab-text-content .main-day-wrap .day-text span{
     display: block;
-    font-size: 20px;
+    font-size: 2.0rem;
     margin-top: 17px;
     font-weight: 500;
 }
 
 .tab-content .tab-content-wrap .tab-text .tab-text-content .main-day-wrap .day-text p{
     color: #444444;
-    font-size: 13px;
+    font-size: 1.3rem;
     margin-top: 10px;
     cursor: pointer;
 
@@ -560,7 +568,7 @@ a{text-decoration: none; color: black;}
 
 
 .tab-content .tab-content-wrap .tab-text .tab-text-content .day-eta-wrap .day-text span{
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #444444;
     padding-right: 10px;
     
@@ -580,7 +588,7 @@ a{text-decoration: none; color: black;}
     margin-top: 10px;
     margin-left: 10px;
     position: relative;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 
@@ -591,7 +599,7 @@ a{text-decoration: none; color: black;}
 
 .tab-content .tab-content-wrap .tab-text .tab-text-content ul li span{
     float: right;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #aaa;
 }
 
@@ -618,7 +626,7 @@ a{text-decoration: none; color: black;}
 }
 .tab-content .tab-content-wrap .tab-title .title-button .tab-more p{
     display: none;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 
@@ -632,7 +640,7 @@ a{text-decoration: none; color: black;}
 .tab-content .tab-content-wrap .tab-title .title-button .tab-more:hover p{
     display: block;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .main .main-wrap .icon{
@@ -641,30 +649,26 @@ a{text-decoration: none; color: black;}
     margin-top: 80px;
 }
 
-
-
 .main .main-wrap .icon h3{
     width: 85%;
     margin: 0 auto;
-    font-size: 26px;
-    font-size: 26px;
-    margin-bottom: 40px;
-    padding-left: 40px;
+    font-size: 2.6rem;
 }
-
-
 
 .main .main-wrap .icon .icon-wrap{
     display: flex;
     flex-wrap: wrap;
+    justify-content: start;
     margin: 0 auto;
     width: 85%;
+    gap: 10px;
+
 } 
 
 .main .main-wrap .icon .icon-content{
-    width: 22.5%;
-    border: .15rem solid rgba(0,0,0,0);
-    margin: 10px;
+    width: calc( 25% - 8px);
+    box-sizing: border-box;
+    border: .2rem solid rgba(0,0,0,0);
     height: 135px;
     background-color: #fff;
     border-radius: 25px;
@@ -679,15 +683,15 @@ a{text-decoration: none; color: black;}
     background-origin: border-box;
     background-clip: content-box,border-box;
     border-image-slice: 1;
-    border: .15rem solid rgba(0,0,0,0);
-    transition: 0.5s;
+    border: .2rem solid rgba(0,0,0,0);
 }
  
 
 
 .main .main-wrap .icon .icon-content .icon-img-wrap{
-    width: 100%;
+    width: 60%;
     text-align: center;
+    margin: 0 auto;
     margin-top: 30px;
 }
 
@@ -700,7 +704,8 @@ a{text-decoration: none; color: black;}
 .main .main-wrap .icon .icon-content a{
     display: block;
     text-align: center;
-    margin-top: 8px;
+    margin-top: 15px;
+    font-size: 1.6rem;
 }
 
 
@@ -728,7 +733,7 @@ a{text-decoration: none; color: black;}
 
 .main .main-wrap .sub-banner .sub-banner-wrap .sub-banner-back p{
     width: 500px;
-    font-size: 24px;
+    font-size: 2.4rem;
     margin-left: 110px;
     display: block;
     height: 40px;
@@ -743,7 +748,7 @@ a{text-decoration: none; color: black;}
     margin-left: 110px;
      margin-top: 10px;
      display: block;
-     font-size: 17px;
+     font-size: 1.7rem;
      font-weight: 400;
 }
 
@@ -758,7 +763,7 @@ a{text-decoration: none; color: black;}
     line-height: 50px;
     text-align: center;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .main .main-wrap .sub-banner .sub-banner-wrap .sub-banner-back img{
@@ -779,7 +784,7 @@ a{text-decoration: none; color: black;}
 .main .main-wrap .site-content h3{
     width: 85%;
     margin: 0 auto;
-    font-size: 26px;
+    font-size: 2.6rem;
     margin-bottom: 40px;
     padding-left: 40px;
 
@@ -837,13 +842,13 @@ a{text-decoration: none; color: black;}
 .main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap a{
     display: block;
     margin-left: 60px;
-    font-size: 17px;
+    font-size: 1.7rem;
 }
 
 
 .main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap a:nth-of-type(1) {
     padding-top: 30px;
-    font-size: 20px;
+    font-size: 2rem;
     margin-bottom: 5px;
     font-weight: 600;
 }
@@ -851,7 +856,7 @@ a{text-decoration: none; color: black;}
 .main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap p{
     float: right;
     margin-right: 50px;
-    font-size: 25px;
+    font-size: 2.5rem;
     margin-top: -50px;
     transform: rotate(-40deg);
 }
@@ -899,7 +904,7 @@ a{text-decoration: none; color: black;}
 
 
 .main .main-wrap .main-wrap-aside .aside .login-wrap .login-text span{
-    font-size: 20px;
+    font-size: 2.0rem;
     font-weight: 500;
     margin-bottom: 7px;
     letter-spacing: 2px;
@@ -920,7 +925,7 @@ a{text-decoration: none; color: black;}
     padding: 8px;
     box-sizing: border-box;
     transition: 0.3s;
-    font-size: 13px;
+    font-size: 1.3rem;
 }
 
 input[type=text]:focus{
@@ -929,7 +934,7 @@ input[type=text]:focus{
 
 
 .main .main-wrap .main-wrap-aside .aside .login-wrap .login-text p{
-    font-size: 11px;
+    font-size: 1.1rem;
     transition: 0.2s;
     margin-left: 10px;
     margin-top: 10px;
@@ -963,7 +968,7 @@ input[type=text]:focus{
 }
 
 .main .main-wrap .main-wrap-aside .aside .login-wrap .login-button-wrap a{
-    font-size: 17px;
+    font-size: 1.7rem;
     line-height: 90px;
     width: 100%;
     height: 100%;
@@ -997,7 +1002,7 @@ input[type=text]:focus{
      border: 4px solid #043255;;
     outline: none;
     box-sizing: border-box;
-    font-size: 15px;
+    font-size: 1.5rem;
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -1020,7 +1025,7 @@ input[type=text]:focus{
     text-align: center;
     display: block;
     line-height: 60px;
-    font-size: 18px;
+    font-size: 1.8rem;
     letter-spacing: 2px;
     color: #fff;
 
@@ -1045,7 +1050,7 @@ input[type=text]:focus{
 
 .main .main-wrap .main-wrap-aside .aside  .quick-menu-wrap .quick-menu .quick-content{
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.15);
-    width: 47%;
+    width: 45%;
     height: 150px;
     background-color: #fff;
     border-radius: 15px;
@@ -1069,7 +1074,7 @@ input[type=text]:focus{
 
 
 .main .main-wrap .main-wrap-aside .aside  .quick-menu-wrap p{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
     margin-top: 3px;
 }
@@ -1103,7 +1108,7 @@ input[type=text]:focus{
 }
 
 .main .main-wrap .main-wrap-aside .aside .app-wrap a{
-    font-size: 14px;
+    font-size: 1.4rem;
     margin-left: 10px;
 }
 
@@ -1162,7 +1167,7 @@ input[type=text]:focus{
     width: 200px;
     text-align: center;
     line-height: 50px;
-    font-size: 16px;
+    font-size: 1.6rem;
     border: 1px solid #fff;
     background-color: #094f84;
     position: relative;
@@ -1175,7 +1180,7 @@ input[type=text]:focus{
 
 .footer .footer-wrap .top-footer .select-box .select-box-wrap i{
     color: #fff;
-    font-size: 13px;
+    font-size: 1.3rem;
     margin-left: 5px;
 }
 
@@ -1202,7 +1207,7 @@ input[type=text]:focus{
     background-color: #094f84;
     text-align: center;
     line-height: 40px;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 
 
@@ -1225,6 +1230,7 @@ input[type=text]:focus{
 
 .footer .footer-wrap .top-footer .site-button a{
     color: #fff;
+    font-size: 1.6rem;
     
 }
 
@@ -1263,8 +1269,213 @@ input[type=text]:focus{
 }
 
 .footer .footer-wrap .bottom-footer >ul li a{
-    font-size: 15px;
+    font-size: 1.5rem;
     line-height: 28px;
     color: #fff;
     font-weight: 300;
 }
+
+/* 테블릿 가로 (해상도 768px ~ 1023px)*/ 
+
+@media all and (min-width:768px) and (max-width:1023px) { 
+
+    
+    .sub-header .sub-header-wrap ul a {
+        font-size: 1.2rem;
+    }
+    .sub-header {
+        height: 40px;
+    }
+    .sub-header .sub-header-wrap ul a{
+        line-height: 40px;
+    }
+
+    .header{
+        height: 60px;
+    }
+    .header-wrap .header-left .main-nav .main-nav-text{
+        display: none;
+    }
+
+    .header-wrap .header-left .main-nav .all-menu{
+        display: block;
+        font-size: 1.4rem;
+    }
+
+    .header-wrap .header-left .main-nav .all-menu::after{
+        width: 100px;
+        height: 40px;
+        background-color: #b2e1f5;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: 40px;
+        transform: translate(-50%,-50%);
+        z-index: -1;
+    }
+
+        
+    .header-wrap .header-left .all-menu i{
+        font-size: 1.6rem;
+        margin-left: 2px;
+    }
+
+
+    .header-wrap .header-right .title{
+        font-size: 1.5rem;
+    }
+    .header-wrap .header-right img{
+        width: 60%;
+        background-color: #043255;
+    }
+
+    .main .main-wrap .main-wrap-aside .aside {
+        display: none;
+    }
+    
+    .main .main-wrap .main-wrap-cont{
+        width: 100%;
+
+    }
+
+    .main .main-wrap .main-wrap-cont .main-slider{
+        width: 100%;
+    }
+
+        
+    .main .main-wrap .main-wrap-cont .main-slider .silde-text{
+        display: none;
+
+    }
+
+    .tab-content{
+        width: 100%;
+        height: 550px;
+    }
+
+    .tab-content .tab-content-wrap .tab-title{
+        padding: 20px 0 0 0px ;
+        height: 40px;
+    }
+
+    .tab-content .tab-content-wrap .tab-title .tab-title-ul li{
+        width: 25%;
+    }
+
+    .tab-content .tab-content-wrap .tab-title .tab-title-ul li p{
+        font-size: 1.6rem;
+        height: 30px;
+        line-height: 30px;
+    }
+    
+    .tab-content .tab-content-wrap .tab-title .tab-title-ul li.on p{
+        background-color: #043255;
+        border-radius: 40px;
+        height: 30px;
+        line-height:30px;
+        color: #fff;
+    }
+
+    .tab-content .tab-content-wrap .tab-text .tab-text-content ul li{
+        width: 100%;
+        margin-bottom: 20px;
+        height: 25px;
+    
+    }
+
+    
+    .tab-content .tab-content-wrap .tab-text .tab-text-content ul li a{
+        width: 60%;
+        font-size: 1.5rem;
+    }
+ 
+
+    
+    .tab-content .tab-content-wrap .tab-text .tab-text-content ul li span{
+        float: none;
+        margin-left: 3px;
+    }
+    .main .main-wrap .icon .icon-content{
+        width: calc( 50% - 5px);
+        box-sizing: border-box;
+    }
+
+    .main .main-wrap .icon{
+        height: 650px;
+    }
+
+    .main .main-wrap .sub-banner .sub-banner-wrap{
+        width: 100%;
+
+    }
+
+    .main .main-wrap .sub-banner .sub-banner-wrap .sub-banner-back p{
+        font-size: 1.6rem;
+        margin-left: 30px;
+
+    }
+
+    .main .main-wrap .sub-banner .sub-banner-wrap .sub-banner-back span{
+        margin-left: 30px;
+        font-size: 1.2rem;
+    }
+
+    .main .main-wrap .sub-banner .sub-banner-wrap .sub-banner-back a{
+        width: 300px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 1.5rem;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
+
+    .main .main-wrap .site-content .site-content-wrap .site-cotent-box{
+        width: 100%;
+
+    }
+
+
+    .main .main-wrap .sub-banner .sub-banner-wrap .sub-banner-back img{
+        top: 20px;
+    }
+    
+    .footer{
+        width: 100%; 
+        height: 400px; 
+    }
+    
+    
+    
+    .footer .footer-wrap .top-footer{
+        flex-direction: column;
+        height: 120px;
+    }
+
+    .footer .footer-wrap .top-footer ul{
+        width: 100%;
+    }
+
+    .footer .footer-wrap .top-footer > ul>li>a{
+        width: 33.3%;
+        font-size: 1.4rem;
+    }
+    
+    
+    .footer .footer-wrap .top-footer .select-box{
+        width: 100%;
+        justify-content: end;
+        margin-top: 10px;
+    }
+
+
+
+  } 
+  
+  /* 모바일 세로 (해상도 ~ 479px)*/ 
+  @media all and (max-width:479px) {
+    .sub-header{
+        background-color: darkgoldenrod;
+    }
+
+    }
