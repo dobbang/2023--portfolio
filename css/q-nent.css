@@ -438,7 +438,7 @@ a{text-decoration: none; color: black;}
 }
 
 
-.tab-content .tab-content-wrap .tab-title .tab-title-ul li a{
+.tab-content .tab-content-wrap .tab-title .tab-title-ul li p{
     line-height: 50px;
     font-size: 20px;
     width: 100%;
@@ -447,7 +447,7 @@ a{text-decoration: none; color: black;}
     font-weight: 500;
 }
 
-.tab-content .tab-content-wrap .tab-title .tab-title-ul li.on a{
+.tab-content .tab-content-wrap .tab-title .tab-title-ul li.on p{
     background-color: #043255;
     border-radius: 40px;
     height: 50px;
@@ -584,18 +584,6 @@ a{text-decoration: none; color: black;}
 }
 
 
-.tab-content .tab-content-wrap .tab-text .tab-text-content ul li::before{
-    content: '';
-    width: 2px;
-    height: 2px;
-    background-color: #000;
-    position: absolute;
-    display: block;
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 50%;
-}
-
 .tab-content .tab-content-wrap .tab-text .tab-text-content ul li:nth-child(1){
     margin-top: 35px;
     
@@ -654,10 +642,7 @@ a{text-decoration: none; color: black;}
 }
 
 
-.main .main-wrap .icon .icon-content:hover{
-    background-color: #ececec;
-    transition: 1s;
-}
+
 .main .main-wrap .icon h3{
     width: 85%;
     margin: 0 auto;
@@ -668,6 +653,7 @@ a{text-decoration: none; color: black;}
 }
 
 
+
 .main .main-wrap .icon .icon-wrap{
     display: flex;
     flex-wrap: wrap;
@@ -676,13 +662,27 @@ a{text-decoration: none; color: black;}
 } 
 
 .main .main-wrap .icon .icon-content{
-    width: 23%;
+    width: 22.5%;
+    border: .15rem solid rgba(0,0,0,0);
     margin: 10px;
     height: 135px;
     background-color: #fff;
     border-radius: 25px;
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.15);
 }
+
+
+
+
+.main .main-wrap .icon .icon-content:hover{
+    background-image: linear-gradient(#fff, #fff),linear-gradient(104.25deg, #4cbdf2 30.52%, #043255 102.67%);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    border-image-slice: 1;
+    border: .15rem solid rgba(0,0,0,0);
+    transition: 0.5s;
+}
+ 
 
 
 .main .main-wrap .icon .icon-content .icon-img-wrap{
@@ -809,8 +809,30 @@ a{text-decoration: none; color: black;}
     margin-bottom: 20px;
     display: block;
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.15);
+    border: .2rem solid rgba(0,0,0,0);
 }
 
+
+
+
+.main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap:hover{
+    background-image: linear-gradient(#fff, #fff),linear-gradient(104.25deg, #4cbdf2 30.52%, #043255 102.67%);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    border-image-slice: 1;
+    border: .2rem solid rgba(0,0,0,0);
+    transition: 0.5s;
+}
+
+
+
+.main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap i{
+    color: #d8d8d8;
+}
+
+.main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap:hover i{
+    color: #043255;
+}
 
 .main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap a{
     display: block;
@@ -829,8 +851,8 @@ a{text-decoration: none; color: black;}
 .main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap p{
     float: right;
     margin-right: 50px;
-    font-size: 23px;
-    margin-top: -30px;
+    font-size: 25px;
+    margin-top: -50px;
     transform: rotate(-40deg);
 }
 
@@ -864,6 +886,10 @@ a{text-decoration: none; color: black;}
 
 
 }
+
+
+
+
 
 
 .main .main-wrap .main-wrap-aside .aside .login-wrap .login-text{
@@ -1015,16 +1041,28 @@ input[type=text]:focus{
     margin-top: 25px;   
 }
 
+
+
 .main .main-wrap .main-wrap-aside .aside  .quick-menu-wrap .quick-menu .quick-content{
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.15);
-    width: 48%;
+    width: 47%;
     height: 150px;
     background-color: #fff;
     border-radius: 15px;
     text-align: center;
     line-height: 25px;
-
+    border: .2rem solid rgba(0,0,0,0);
 }
+
+.main .main-wrap .main-wrap-aside .aside  .quick-menu-wrap .quick-menu .quick-content:hover{
+    background-image: linear-gradient(#fff, #fff),linear-gradient(104.25deg, #4cbdf2 30.52%, #043255 102.67%);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    border-image-slice: 1;
+    border: .2rem solid rgba(0,0,0,0);
+    transition: 0.5s;
+}
+ 
 
 .main .main-wrap .main-wrap-aside .aside  .quick-menu-wrap img{
     width: 20%; padding-top: 32px;}
@@ -1046,6 +1084,7 @@ input[type=text]:focus{
     align-items: center;
     justify-content: center;
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
 }
 
 .main .main-wrap .main-wrap-aside .aside .app-wrap .app{

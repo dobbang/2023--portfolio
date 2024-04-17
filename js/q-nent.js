@@ -45,11 +45,6 @@ $("document").ready(function(){
 
 
         $(window).scroll(function(){
-            curSc = $(document).scrollTop() + $(window).height();
-            body_height = $("body").height(); 
-            footer_height = $(".footer").height();
-            bottom_top = body_height - footer_height; 
-            
             let pos = $(window).scrollTop(); 
     
             if(pos >= 1550){
