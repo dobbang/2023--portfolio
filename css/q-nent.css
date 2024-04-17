@@ -1027,6 +1027,7 @@ input[type=text]:focus{
     letter-spacing: 2px;
     color: #fff;
 
+
 }
 
 
@@ -1274,9 +1275,7 @@ input[type=text]:focus{
 }
 
 /* 테블릿 가로 (해상도 768px ~ 1023px)*/ 
-
-@media all and (min-width:768px) and (max-width:1023px) { 
-
+@media all and (max-width:1023px) { 
     
     .sub-header .sub-header-wrap ul a {
         font-size: 1.2rem;
@@ -1353,7 +1352,7 @@ input[type=text]:focus{
 
     .tab-content .tab-content-wrap .tab-title{
         padding: 20px 0 0 0px ;
-        height: 40px;
+        height: 50px;
     }
 
     .tab-content .tab-content-wrap .tab-title .tab-title-ul li{
@@ -1362,15 +1361,15 @@ input[type=text]:focus{
 
     .tab-content .tab-content-wrap .tab-title .tab-title-ul li p{
         font-size: 1.6rem;
-        height: 30px;
-        line-height: 30px;
+        height: 40px;
+        line-height: 40px;
     }
     
     .tab-content .tab-content-wrap .tab-title .tab-title-ul li.on p{
         background-color: #043255;
         border-radius: 40px;
-        height: 30px;
-        line-height:30px;
+        height: 40px;
+        line-height:40px;
         color: #fff;
     }
 
@@ -1435,7 +1434,8 @@ input[type=text]:focus{
 
 
     .main .main-wrap .sub-banner .sub-banner-wrap .sub-banner-back img{
-        top: 20px;
+        top: -40px;
+        width: 350px;
     }
     
     .footer{
@@ -1470,10 +1470,8 @@ input[type=text]:focus{
 
   } 
   
-  /* 모바일 세로 (해상도 ~ 479px)*/ 
-  @media all and (max-width:479px) {
-    .sub-header{
-        background-color: darkgoldenrod;
-    }
+  /* 모바일 (해상도 768px 이하 )*/ 
+  @media all and (max-width:768px) {
+
 
     }
