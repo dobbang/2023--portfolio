@@ -983,7 +983,8 @@ input[type=text]:focus{
 
 .main .main-wrap .main-wrap-aside .aside .aside-search{ 
     display: flex;
-    width: 100%;    
+    width: 95%;    
+    margin: 0 auto;
     margin-top: 25px;
 }
 
@@ -1016,13 +1017,10 @@ input[type=text]:focus{
 
 }
 
-
-
-
 .main .main-wrap .main-wrap-aside .aside .aside-search .search-button a{
-    width: 140px;
-    height: 60px;
+    width: 100%;
     text-align: center;
+    height: 60px;
     display: block;
     line-height: 60px;
     font-size: 1.8rem;
