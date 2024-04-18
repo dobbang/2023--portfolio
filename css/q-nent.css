@@ -593,8 +593,11 @@ html{font-size: 62.5%}
     margin-left: 10px;
     position: relative;
     font-size: 1.6rem;
+    width: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
-
 
 .tab-content .tab-content-wrap .tab-text .tab-text-content ul li:nth-child(1){
     margin-top: 35px;
@@ -1666,14 +1669,12 @@ input[type=text]:focus{
     .tab-content .tab-content-wrap .tab-text .tab-text-content ul li a{
         font-size: 1.3rem;
         width: 100%;
-        text-overflow: ellipsis;
     }
+
     .tab-content .tab-content-wrap .tab-text .tab-text-content ul li{
         width: 100%;
         margin-bottom: 10px;
         height: 20px;
-        text-overflow: ellipsis;
-        white-space: nowrap ;
     }
     .tab-content .tab-content-wrap .tab-text .tab-text-content ul li span{
         display: none;
@@ -1756,9 +1757,6 @@ input[type=text]:focus{
         font-size: 1.7rem;
 
     }
-    .footer .footer-wrap .top-footer > ul>li>a{
-        font-size: 1rem;
-    }
 
 
     .main .main-wrap .sub-banner .sub-banner-wrap .sub-banner-back img{
@@ -1787,12 +1785,79 @@ input[type=text]:focus{
         border-radius: 40px;
         position: absolute;
     }
+
+
     @media all and (max-width:375px){
 
-            
-        .header{
-            height: 40px;
+        .main .main-wrap .icon .icon-content{
+            height: 120px;
         }
+    
+        .main .main-wrap .icon .icon-content img{
+            width: 20px;
+            height: 20px;
+       
+        }
+
+        
+        .main .main-wrap .icon .icon-content a{
+            font-size: 1.3rem;
+        }
+
+        .main .main-wrap .icon h3{
+            font-size: 1.6rem;
+            padding-left: 0;
+        }
+        .main .main-wrap .site-content h3{
+            font-size: 1.6rem;
+            padding-left: 0;
+        }
+
+        
+        .main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap i{
+            font-size: 1.5rem;
+        }
+
+        
+        .main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap a{
+            font-size: 1.3rem;
+        }
+
+        .main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap a:nth-of-type(1){
+            font-size: 1.6em;
+        }
+
+
+        .footer .footer-wrap .top-footer ul> li a{
+            font-size: 0.8rem;
+            width: 100%;
+        }
+        
+        .footer{
+            height: 320px;
+        }
+         
+    .footer .footer-wrap .top-footer .select-box{
+        width: 90%;
+    }
+    .footer .footer-wrap .top-footer .select-box a{
+        font-size: 1rem;
+    }
+
+    
+    .footer .footer-wrap .top-footer .site-button{
+        width: 30%;
+    }
+
+    
+    .footer .footer-wrap .top-footer .select-box .select-box-wrap{
+        width: 40%;
+    }
+
+    .footer .footer-wrap .bottom-footer >ul li a{
+        font-size: 0.7rem;
+        line-height: 14px;
+    }
 
     }
 
