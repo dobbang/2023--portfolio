@@ -4,6 +4,10 @@ ul{list-style: none;}
 a{text-decoration: none; color: black;}
 html{font-size: 62.5%}
 
+
+.m-all-menu{
+    display: none;
+}
 .pop-up{
     width: 550px;
     height: 570px;
@@ -123,10 +127,10 @@ html{font-size: 62.5%}
     display: flex;
     justify-content: space-between ;
     align-items: center;
+
 }
 .header-wrap .header-right{
     display: flex;
-    justify-content: space-between ;
     align-items: center;
 }
 
@@ -643,6 +647,8 @@ html{font-size: 62.5%}
     font-size: 1.8rem;
 }
 
+
+/* 빠른메뉴 */
 .main .main-wrap .icon{
     width: 100%;
     height: 350px;
@@ -1163,11 +1169,12 @@ input[type=text]:focus{
     position: relative;
     display: flex;
     gap: 15px;
+    width: 30%;
 }
 
 
 .footer .footer-wrap .top-footer .select-box .select-box-wrap{
-    width: 200px;
+    width: 55%;
     text-align: center;
     line-height: 50px;
     font-size: 1.6rem;
@@ -1196,7 +1203,7 @@ input[type=text]:focus{
 }
 
 .footer .footer-wrap .top-footer .options ul{
-    width: 200px;
+    width: 100%;
     display: block;
     display: flex;
     flex-direction: column;
@@ -1205,7 +1212,7 @@ input[type=text]:focus{
 }
 
 .footer .footer-wrap .top-footer .options ul li{
-    width: 200px;
+    width: 100%;
     height: 40px;
     background-color: #094f84;
     text-align: center;
@@ -1223,7 +1230,7 @@ input[type=text]:focus{
 
 
 .footer .footer-wrap .top-footer .site-button{
-    width: 150px;
+    width: 45%;
     text-align: center;
     line-height: 50px;
     background-color: #094f84;
@@ -1303,12 +1310,12 @@ input[type=text]:focus{
 
     }
 
+        
+    .pop-up .pop-up-wrap .pop-up-close i{
+        line-height: 30px;
+    }
     
-.pop-up .pop-up-wrap .pop-up-close i{
-    line-height: 30px;
-}
-    
-    .sub-header .sub-header-wrap ul a {
+    .sub-header .sub-header-wrap ul a{
         font-size: 1.2rem;
     }
     .sub-header {
@@ -1424,6 +1431,13 @@ input[type=text]:focus{
         float: none;
         margin-left: 3px;
     }
+
+    .main .main-wrap .icon h3{
+        font-size: 2.2rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
     .main .main-wrap .icon .icon-content{
         width: calc( 50% - 5px);
         box-sizing: border-box;
@@ -1437,10 +1451,10 @@ input[type=text]:focus{
     .main .main-wrap .sub-banner .sub-banner-wrap{
         width: 100%;
 
-    }
+    } 
 
     .main .main-wrap .sub-banner .sub-banner-wrap .sub-banner-back p{
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         margin-left: 30px;
 
     }
@@ -1488,24 +1502,29 @@ input[type=text]:focus{
     }
 
     .footer .footer-wrap .top-footer ul{
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .footer .footer-wrap .top-footer > ul>li{
-        width: 33.3%;
+        width: 100%;
         text-align: center;
     }
 
-    .footer .footer-wrap .top-footer > ul>li>a{
-        width: 33.3%;
-        font-size: 1.3rem;
+    .footer .footer-wrap .top-footer ul> li a{
+        font-size: 1.4rem;
+        width: 100%;
     }
     
     
     .footer .footer-wrap .top-footer .select-box{
-        width: 100%;
+        width: 50%;
         justify-content: center;
-        margin-top: 10px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .footer .footer-wrap .top-footer .select-box a{
+        font-size: 1.2rem;
     }
 
     .footer .footer-wrap .bottom-footer{
@@ -1542,15 +1561,200 @@ input[type=text]:focus{
   @media all and (max-width:768px) {
 
 
+    .pop-up{
+        width: 200px;
+        height: 240px;
+    }
+    .pop-up .pop-up-wrap span{
+        font-size: 1rem;
+    }
+
+    .pop-up .pop-up-wrap .pop-up-close{
+        width: 20px;
+        height: 20px;
+        top: 10px;right: 15px;
+
+    }
+           
+    .pop-up .pop-up-wrap .pop-up-close i{
+        line-height: 20px;
+        font-size: 1.3rem;
+    }
+
+    .sub-header{
+        height: 30px;
+    }
+
+        
+    .sub-header .sub-header-wrap ul a {
+        font-size: 1rem;
+        padding: 0 5px;
+        line-height: 30px;
+    }
+    .header{
+        height: 40px;
+    }
+
+    .header-wrap .header-left .main-nav .all-menu{
+        font-size: 1rem;
+        margin-right: 80px;
+        display: none;
+    }
+    .m-all-menu{
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: #043255;
+        border-radius: 50%;
+        position: fixed;
+        top: 80px;
+        right: 20px;
+    }
+    .m-all-menu i{
+        width: 100%;
+        text-align: center;
+        line-height: 50px;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+
+    
+    .header-wrap .header-right .title{
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    .header-wrap .header-right img{
+        background-color: #043255;
+        width: 17px;
+        margin-right: 5px;
+    }
+
+
+    .header-right{
+        justify-content: center;
+        width: 100%;
+    }
  
+
+    
+    .tab-content{
+        width: 100%;
+        height: 450px;
+    }
+
+
+    .tab-content .tab-content-wrap .tab-title{
+        padding: 20px 0 0 10px ;
+        height: 40px;
+    }
+
+    
+    .tab-content .tab-content-wrap .tab-title .tab-title-ul li p{
+        font-size: 1.4rem;
+        line-height: 30px;
+    }
+
+    .tab-content .tab-content-wrap .tab-title .tab-title-ul li.on p{
+        height: 30px;
+        line-height: 30px;
+    }
+    .tab-content .tab-content-wrap .tab-text .tab-text-content ul li a{
+        font-size: 1.3rem;
+        width: 100%;
+        text-overflow: ellipsis;
+    }
+    .tab-content .tab-content-wrap .tab-text .tab-text-content ul li{
+        width: 100%;
+        margin-bottom: 10px;
+        height: 20px;
+        text-overflow: ellipsis;
+        white-space: nowrap ;
+    }
+    .tab-content .tab-content-wrap .tab-text .tab-text-content ul li span{
+        display: none;
+    }
+
+    .tab-content .tab-content-wrap .tab-text .tab-text-content .main-day-wrap .day{
+        width: 70px;
+        height: 60px;
+    }
+
+    .tab-content .tab-content-wrap .tab-text .tab-text-content .main-day-wrap .day span{
+        font-size: 1.6rem;
+    }
+
+    
+    .tab-content .tab-content-wrap .tab-text .tab-text-content .main-day-wrap .day p{
+        font-size: 1rem;
+    }
+
+
+    .tab-content .tab-content-wrap .tab-text .tab-text-content .main-day-wrap .day-text span{
+        margin-top: 0;
+        font-size: 1.5rem;
+    }
+    
+    
+
+    .tab-content .tab-content-wrap .tab-text .tab-text-content .day-eta-wrap .day-text p{
+    font-size: 1.3rem;
+    text-overflow: ellipsis;
+}
+    
+    .tab-content .tab-content-wrap .tab-text .tab-text-content .main-day-wrap .day-text p{
+        
+        font-size: 0.9rem;
+
+    }
+
+    .tab-content .tab-content-wrap .tab-title .title-button .tab-more{
+        left: 50%;
+        transform: translateX(-50%);
+        width: 180px;
+        height: 50px;
+        border-radius: 40px;
+    }
+
+    .tab-content .tab-content-wrap .tab-title .title-button .tab-more i{display: none;}
+
+    .tab-content .tab-content-wrap .tab-title .title-button .tab-more p{
+        display: block;
+        font-size: 1.4rem;
+        line-height: 50px;
+    }
+
+    
+    .tab-content .tab-content-wrap .tab-title .title-button .tab-more:hover{
+        display: block;
+        font-size: 1.4rem;
+        line-height: 50px;
+        width: 180px;
+        height: 50px;
+        border-radius: 40px;
+    } 
+
+    .tab-content .tab-content-wrap .tab-title .title-button .tab-more:hover p{
+        font-size: 1.4rem;
+    }
     .footer .footer-wrap .top-footer > ul>li{
         margin-left: 0;
         
     }
+    .main .main-wrap .icon h3{
+        font-size: 1.9rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
     
+    .main .main-wrap .sub-banner .sub-banner-wrap .sub-banner-back p{
+        font-size: 1.7rem;
+
+    }
     .footer .footer-wrap .top-footer > ul>li>a{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
 
@@ -1558,4 +1762,23 @@ input[type=text]:focus{
         width: 30%;
     }
     
+    .footer .footer-wrap .bottom-footer >ul li a{
+        font-size: 1rem;
+        line-height: 12px;
+    }
+
+    
+    .main .main-wrap .sub-banner .sub-banner-wrap .sub-banner-back a{
+        left: 50%;
+        transform: translateX(-50%);
+        width: 180px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 40px;
+        position: absolute;
+    }
+
+
+
+ 
     }
