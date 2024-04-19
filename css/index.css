@@ -664,7 +664,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     height: 20px;
     background-color: #abc3b7;
     width: 40%;
-        padding: 10px;
+    padding: 10px;
     border-radius: 20px;
     text-align: center;
     position: relative;
@@ -1624,7 +1624,7 @@ margin-bottom: 2px;}
     }
 
     .about .about-wrap .web-introduce .conetent-wrap .content1 p{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .about .about-wrap .web-introduce .conetent-wrap .content3 p{
@@ -1649,23 +1649,64 @@ margin-bottom: 2px;}
 
     .about .about-wrap .web-introduce .conetent-wrap .content2{
         margin-top: 40px;
+        height: 100%;
     }
     .about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap span{
         font-size: 10px;
         padding-left: 10px;
     }
+
+    .about .about-wrap .web-introduce .conetent-wrap .content2 .talk1::after,
+    .about .about-wrap .web-introduce .conetent-wrap .content2 .talk2::after,
+    .about .about-wrap .web-introduce .conetent-wrap .content2 .talk3::after{
+        display: none;
+    }   
+
+    .content2{
+        padding-top: 20px;
+    }
+
+    .about .about-wrap .web-introduce .conetent-wrap .content2 .talk1{
+        padding: 0;
+        margin: 0 auto;
+        height: 50px;
+        border-radius: 40px;
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+
     .about .about-wrap .web-introduce .conetent-wrap .content2 .talk1 p{
         font-size: 9px;
-        line-height: 13px;
+        line-height: 20px;
     }
-    .about .about-wrap .web-introduce .conetent-wrap .content2 .talk2 p{
-        font-size: 9px;
-        line-height: 13px;
-        z-index: 99;
+
+
+    .about .about-wrap .web-introduce .conetent-wrap .content2 .talk2{
+        padding: 0;
+        margin: 0 auto;
+        height: 30px;
+        border-radius: 20px;
+        margin-top: 20px;
+        width: 100%;
+        margin: 0;
+        line-height: 30px;
+
+        margin-bottom: 10px;
     }
+
+    
+    .about .about-wrap .web-introduce .conetent-wrap .content2 .talk3{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        height: 30px;
+
+    }
+
     .about .about-wrap .web-introduce .conetent-wrap .content2 .talk3 p{
-        font-size: 9px;
-        line-height: 13px;
+        font-size: 11px;
+        line-height: 30px;
     }
 
     .about .about-wrap .web-introduce .conetent-wrap .content2 p{
@@ -1682,9 +1723,9 @@ margin-bottom: 2px;}
     }
 
 
-    .publishing .text .explain span{
+   
+    .about .about-wrap .web-introduce .conetent-wrap .content3 span{
         font-size: 14px;
-        font-weight: 400;
     }
 
     .publishing .text .explain p{
@@ -1708,4 +1749,15 @@ margin-bottom: 2px;}
     .contact .contact-wrap p:nth-last-of-type(1){
         font-size: 16px;
     }
+    
+}@media screen and (max-width : 460px){
+
+
+
+    .about .about-wrap .web-introduce .conetent-wrap .content3 span{
+        font-size: 10px;
+        line-height: 14px;
+    }
+  
+
 }
