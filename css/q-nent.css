@@ -1501,7 +1501,6 @@ input[type=text]:focus{
     
     .footer .footer-wrap .top-footer{
         flex-direction: column;
-        height: 100px;
         padding-top: 40px;
     }
 
@@ -1533,7 +1532,8 @@ input[type=text]:focus{
 
     .footer .footer-wrap .bottom-footer{
         justify-content: center;
-        margin-top: 40px;
+        padding-top: 80px;
+        width: 100%;
 
     }
 
@@ -1761,6 +1761,7 @@ input[type=text]:focus{
 
     .main .main-wrap .sub-banner .sub-banner-wrap .sub-banner-back img{
         width: 30%;
+        margin-top: 30px;
     }
 
     .site-content h3{
@@ -1769,7 +1770,7 @@ input[type=text]:focus{
         padding-left: 0;
 
     }
-    
+
     .footer .footer-wrap .bottom-footer >ul li a{
         font-size: 1rem;
         line-height: 12px;
@@ -1785,6 +1786,47 @@ input[type=text]:focus{
         border-radius: 40px;
         position: absolute;
     }
+
+    .footer{
+        height: 400px;
+    }
+    .footer .footer-wrap .top-footer {
+        height: 200px;
+        margin-bottom: 0;
+        padding-bottom: 5px;
+    }
+
+
+    .footer .footer-wrap .top-footer ul{
+        flex-wrap: wrap;
+    }
+    .footer .footer-wrap .top-footer ul> li {
+        width: 33.3%;
+    }
+    
+    .footer .footer-wrap .top-footer ul> li a{
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+
+
+        
+    .footer .footer-wrap .top-footer .site-button{
+        width: 50%;
+    }
+
+    
+    .footer .footer-wrap .top-footer .select-box .select-box-wrap{
+        width: 60%;
+    }
+
+    .footer .footer-wrap .bottom-footer{
+        background-color: #043255;
+        padding-top: 0px;
+        margin-top: 0;
+    }
+
 
 
     @media all and (max-width:375px){
@@ -1807,7 +1849,15 @@ input[type=text]:focus{
         .main .main-wrap .icon h3{
             font-size: 1.6rem;
             padding-left: 0;
+
         }
+
+
+        .main .main-wrap .sub-banner .sub-banner-wrap .sub-banner-back img{
+            width: 25%;
+            margin-top: 60px;
+        }
+    
         .main .main-wrap .site-content h3{
             font-size: 1.6rem;
             padding-left: 0;
@@ -1826,11 +1876,9 @@ input[type=text]:focus{
         .main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap a:nth-of-type(1){
             font-size: 1.6em;
         }
-
-
         .footer .footer-wrap .top-footer ul> li a{
             font-size: 0.8rem;
-            width: 100%;
+            width: 33.3%;
         }
         
         .footer{
@@ -1846,7 +1894,7 @@ input[type=text]:focus{
 
     
     .footer .footer-wrap .top-footer .site-button{
-        width: 30%;
+        width: 40%;
     }
 
     
@@ -1854,8 +1902,10 @@ input[type=text]:focus{
         width: 40%;
     }
 
+
+
     .footer .footer-wrap .bottom-footer >ul li a{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         line-height: 14px;
     }
 
