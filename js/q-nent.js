@@ -2,7 +2,6 @@ $("document").ready(function(){
 
 
 
-
     $(".main-nav li").mouseover(function(){
         $(this).find($(".submenu")).stop().slideDown();
     })
@@ -67,21 +66,92 @@ $("document").ready(function(){
 
 
         //  팝업
-        $(".pop-up-close").click(function(){
-            $(".pop-up").hide();
-            $(".window").hide();
-        })
-    
-        function closeToday() { 
-            setCookie( "popToday", "close" , 1  ); 
-            $(".pop-up-close").css("display", "none");
-            document.getElementById("popup_layer").style.display = "none";
+
+        let $popup = document.querySelector(".pop-up")
+        let $checkbox = document.querySelector("#popup")
+        let $popup_close = document.querySelector(".close")
+
+
+
+        //쿠키생성
+        function setCookie( name , value ,day){
+            let date = new Date();  // 현재 날짜 지정
+            date.setDate(date.getDate() + day);
+
+            let mycookie = '';
+            mycookie += name + '=' + value + ';' ;
+            mycookie += 'Expires=' + date.toUTCString();
+
+            document.cookie = mycookie ; //쿠키 설정 , 생성
+
         }
 
+        //쿠키 삭제 
+
+        function delcookie (name) {
+            let date = new Date();
+            date.setDate(date.getDate() - 1);
+
+            document.cookie = setCookie ; 
+        }
+        
+        
+        //쿠키확인
+        function checkCookie (name){
+            let cookeis = document.cookie.split(';');
+
+            let visited = false ; // 방문여부 변수 (거짓)
+
+            for (let i in cookeis){
+                if(cookeis[i].indexOf(name) > -1 ){
+                    visited = true ;
+                    console.log(visited);
+                }
+            }
+            console.log(visited);
+
+            if(visited == true ){
+                //재방문
+                $(".pop-up").hide();
+                $(".window").hide();
+                
+            }else{
+                //신규방문
+                $(".pop-up").show();
+                $(".window").show();
+
+            }
+        }
+
+        checkCookie('popupClose')
+        
+        $popup_close.addEventListener('click' , function(){
+            //check 박스 여부
+            if($checkbox.checked){
+                //체크함
+                //팝업 닫고 쿠키 생성
+                $(".pop-up").hide();
+                $(".window").hide();
+                setCookie('popupClose', 'main', 1) //하루 안보기
+
+            }else{
+                //체크하지 않음 
+                //팝업 닫고 쿠키 제거 
+                $(".pop-up").hide();
+                $(".window").hide();
+                delcookie('popupClose');
+            }
+        })
 
 
 
-        //팝업 쿠키 구현
+
+
+
+
+
+
+
 
 
 
