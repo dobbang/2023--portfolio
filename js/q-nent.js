@@ -70,7 +70,7 @@ $("document").ready(function(){
         let $popup = document.querySelector(".pop-up")
         let $checkbox = document.querySelector("#popup")
         let $popup_close = document.querySelector(".close")
-
+        
 
 
         //쿠키생성
@@ -91,7 +91,6 @@ $("document").ready(function(){
         function delcookie (name) {
             let date = new Date();
             date.setDate(date.getDate() - 1);
-
             document.cookie = setCookie ; 
         }
         
@@ -145,8 +144,12 @@ $("document").ready(function(){
 
         })
 
+
+
         //전체메뉴와 팝업 관리 
 
+
+        let $all_menu = document.querySelector(".all-menu")
 
         function checkCookie_menu (name){
             let cookeis = document.cookie.split(';');
@@ -160,24 +163,34 @@ $("document").ready(function(){
             }
 
             if(visited == true ){
-                //재방문
-
-                alert("올메뉴클릭")
-            }else{
-                //신규방문
                 $(".pop-up").hide();
                 $(".window").hide();
-
             }
+
         }
 
-        $(".all-menu").click(function(){
-            setCookie('menuopen', 'main')//메뉴오픈 쿠키 생성
-            checkCookie_menu('menuopen')
+        
+        $all_menu.addEventListener('click' , function(){
+            setCookie('allmenuopen')
         })
+
+        if(checkCookie_menu('allmenuopen') == true ){
+            $(".pop-up").hide();
+            $(".window").hide();
+        }
+        
+
+        // 새로고침하면 올메뉴 쿠키 삭제
+        
+        if (document.readyState == "complete") {
+            $.removeCookie('allmenuopen');
+        }
+
+
 
 
         // tab-menu
+
 
         $('.tab-title-ul li').eq(0).addClass('on')
         $('.tab-text .tab-text-content').eq(0).addClass('on')
