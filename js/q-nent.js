@@ -105,10 +105,9 @@ $("document").ready(function(){
             for (let i in cookeis){
                 if(cookeis[i].indexOf(name) > -1 ){
                     visited = true ;
-                    console.log(visited);
                 }
             }
-            console.log(visited);
+
 
             if(visited == true ){
                 //재방문
@@ -124,6 +123,7 @@ $("document").ready(function(){
         }
 
         checkCookie('popupClose')
+
         
         $popup_close.addEventListener('click' , function(){
             //check 박스 여부
@@ -141,20 +141,40 @@ $("document").ready(function(){
                 $(".window").hide();
                 delcookie('popupClose');
             }
+
+
         })
 
+        //전체메뉴와 팝업 관리 
 
 
+        function checkCookie_menu (name){
+            let cookeis = document.cookie.split(';');
 
+            let visited = false ; // 방문여부 변수 (거짓)
 
+            for (let i in cookeis){
+                if(cookeis[i].indexOf(name) > -1 ){
+                    visited = true ;
+                }
+            }
 
+            if(visited == true ){
+                //재방문
 
+                alert("올메뉴클릭")
+            }else{
+                //신규방문
+                $(".pop-up").hide();
+                $(".window").hide();
 
+            }
+        }
 
-
-
-
-
+        $(".all-menu").click(function(){
+            setCookie('menuopen', 'main')//메뉴오픈 쿠키 생성
+            checkCookie_menu('menuopen')
+        })
 
 
         // tab-menu

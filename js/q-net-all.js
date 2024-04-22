@@ -24,7 +24,6 @@ $(document).ready(function(){
         }
 
 
-
         let pos = $(window).scrollTop(); 
         let current = (pos/($(document).outerHeight()-$(window).height())) * 100;
 

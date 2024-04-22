@@ -629,7 +629,7 @@ html{font-size: 62.5%}
     margin-left: 10px;
     position: relative;
     font-size: 1.6rem;
-    width: 100px;
+    width: 100%;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
