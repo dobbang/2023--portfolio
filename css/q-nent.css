@@ -1851,20 +1851,28 @@ input[type=text]:focus{
     }
 
 
+    .footer .footer-wrap .top-footer .select-box
+    {
+        width: 80%;
+    }
+    
+
 
         
     .footer .footer-wrap .top-footer .site-button{
-        width: 50%;
+        width: 80%;
+    }
+    .footer .footer-wrap .top-footer .select-box .select-box-wrap{
+        width: 80%;
     }
 
-    
-    .footer .footer-wrap .top-footer .select-box .select-box-wrap{
-        width: 60%;
+    .footer .footer-wrap .top-footer .select-box .select-box-wrap p{
+        font-size: 1.2rem;
     }
+
 
     .footer .footer-wrap .bottom-footer{
-        background-color: #043255;
-        padding-top: 0px;
+        padding-top: 10px;
         margin-top: 0;
     }
 

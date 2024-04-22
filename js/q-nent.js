@@ -153,7 +153,6 @@ $("document").ready(function(){
 
         function checkCookie_menu (name){
             let cookeis = document.cookie.split(';');
-
             let visited = false ; // 방문여부 변수 (거짓)
 
             for (let i in cookeis){
@@ -181,7 +180,7 @@ $("document").ready(function(){
         
 
         // 새로고침하면 올메뉴 쿠키 삭제
-        
+
         if (document.readyState == "complete") {
             $.removeCookie('allmenuopen');
         }
