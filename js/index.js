@@ -25,8 +25,8 @@ document.documentElement.addEventListener('touchend', function (event) {
    
   
   $('#fullpage').fullpage({
-    sectionsColor: ["#66669a", "white", "white", "white","white","white","#8b8bc8"],
-    anchors: ["home", "about", "Publishing1", "Publishing2","Publishing3", "etc","contact"],
+    sectionsColor: ["#66669a", "white", "white", "white", "white", "white", "#8b8bc8"],
+    anchors: ["home", "about", "Publishing1", "Publishing2","Publishing3", "design","contact"],
 
     responsiveWidth: 1023,
 
@@ -88,19 +88,23 @@ $(".window-wrap").click(function(){
 });
 
 
-$(".modal-image").click(function(){
-  $(".modal-zone").toggleClass('on');
-  $(".modal-window").toggleClass('on');
-  $.fn.fullpage.setAllowScrolling(false)
 
+
+$(".modal-image").click(function(){
+  $(".modal-image-zone").toggleClass('on');
+  $(".modal-window").toggleClass('on');
+  $.fn.fullpage.setAllowScrolling(false);
+  $(".nav .nav-wrap a").addClass('on');
 });
+
 
 $(".modal-window").click(function(){
-  $(".modal-zone").toggleClass('on');
+  $("modal-image-zone").toggleClass('on');
   $(".modal-window").toggleClass('on');
   $.fn.fullpage.setAllowScrolling(true)
-
+  $(".nav .nav-wrap a").removeClass('on');
 });
+
 
 
 
