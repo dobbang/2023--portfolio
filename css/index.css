@@ -448,6 +448,9 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     font-weight: 600;
 
 }
+.about .about-wrap .web-photo .content .img-box img{
+    border-radius: 15px;
+}
 
 
 .about .about-wrap .web-photo .content .img-box .bottom  .text-balloon3{
