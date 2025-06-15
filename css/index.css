@@ -777,7 +777,7 @@ transition: 0.9s;
 
 
 .modal-introduce{
-    background: url(/images/pf/main\ back3.png) no-repeat center / cover ;
+    background: url(/images/pf/main-back2.png) no-repeat center / cover ;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -791,7 +791,6 @@ transition: 0.9s;
 .modal-introduce .flexible-wrap{
     width: 60%;
     margin: 0 auto;
-    /* background-color: #edd0b4; */
 }
 
 .modal-introduce p{
