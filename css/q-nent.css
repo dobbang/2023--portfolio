@@ -1087,17 +1087,34 @@ input[type=text]:focus{
 
 
 .main .main-wrap .main-wrap-aside .aside  .quick-menu-wrap .quick-menu .quick-content p{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     text-align-last: left;
+    margin-bottom: 2px;
 }
 
 .main .main-wrap .main-wrap-aside .aside  .quick-menu-wrap .quick-menu .quick-content ul{
     text-align-last: left;
 }
 .main .main-wrap .main-wrap-aside .aside  .quick-menu-wrap .quick-menu .quick-content ul li{
-    font-size: 10px;
+    font-size: 13px;
     display: inline-block;
     height: 20px;
+    margin-right: 1rem;
+}
+
+.main .main-wrap .main-wrap-aside .aside  .quick-menu-wrap .quick-menu .quick-content ul li::after{
+    content: "";
+    height: 12px;
+    width: 1px;
+    background-color: #5e5e5e;
+    position: absolute;
+    top: 54px;
+    margin-left: 5px;
+}
+
+
+.main .main-wrap .main-wrap-aside .aside  .quick-menu-wrap .quick-menu .quick-content ul li:last-child::after{
+    display: none;
 }
 
 .main .main-wrap .main-wrap-aside .aside  .quick-menu-wrap .quick-menu .quick-content  .quick-menu-button{
