@@ -7,9 +7,6 @@
 ul{list-style: none;}
 a{text-decoration: none;}
 
-
-
-
 .floating5,
 .work-mobile,
 .mobile-back,
@@ -324,7 +321,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 }
 
 
-.about .about-wrap .content-wrap{
+.about .about-wrap .phone-content-wrap{
     width: 25%;
  background-color: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
@@ -417,7 +414,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 
 
-.about .about-wrap .web-photo .content .propil{
+.about .about-wrap .web-photo .content .profile{
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -494,12 +491,12 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     margin-left: 3%;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap{
+.about .about-wrap .web-introduce .web-content-wrap{
     display: flex;
     flex-wrap: wrap;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .wep-main{
+.about .about-wrap .web-introduce .web-content-wrap .web-main{
     width: 100%;
     text-align: center;
     position: relative;
@@ -508,7 +505,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 
 
-.about .about-wrap .web-introduce .conetent-wrap .wep-main img{
+.about .about-wrap .web-introduce .web-content-wrap .web-main img{
     width: 95%;
     height: 160px;
     margin: 0 auto;
@@ -518,7 +515,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 
 
-.about .about-wrap .web-introduce .conetent-wrap .wep-main span{
+.about .about-wrap .web-introduce .web-content-wrap .web-main span{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -539,7 +536,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content1{
+.about .about-wrap .web-introduce .web-content-wrap .content1{
     width: 40%;
     height: 12vw;
     padding-left: 4.7%;
@@ -547,7 +544,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap{
+.about .about-wrap .web-introduce .web-content-wrap .content1 .text-wrap{
     width: 96%;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.2);
@@ -557,7 +554,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap span{
+.about .about-wrap .web-introduce .web-content-wrap .content1 .text-wrap span{
     color: #787777;
     display: block;
     font-weight: 600;
@@ -566,7 +563,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     font-size: 16px;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content1 p{
+.about .about-wrap .web-introduce .web-content-wrap .content1 p{
     margin-bottom: 5px;
     color: #383858;
     font-size: 19px;
@@ -575,20 +572,20 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap span:nth-of-type(1){
+.about .about-wrap .web-introduce .web-content-wrap .content1 .text-wrap span:nth-of-type(1){
     padding-top: 20px;
 
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content2{
+.about .about-wrap .web-introduce .web-content-wrap .content2{
     width: 50%; 
     height: 13vw;
     padding-left: 5.3%;
 } 
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content2 p{
+.about .about-wrap .web-introduce .web-content-wrap .content2 p{
     color: #787777;
     font-weight: 600;
     letter-spacing: 1.7px;
@@ -596,7 +593,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content2 .talk1{
+.about .about-wrap .web-introduce .web-content-wrap .content2 .talk1{
     background-color: #f0b8c3;
     height: 40px;
     width: 60%;
@@ -611,7 +608,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content2 .talk1::after{
+.about .about-wrap .web-introduce .web-content-wrap .content2 .talk1::after{
     content: "";
     width: 15px;
     height: 15px;
@@ -625,7 +622,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content2 .talk2{
+.about .about-wrap .web-introduce .web-content-wrap .content2 .talk2{
     background-color: #edd0b4;
     height: 20px;
     width: 50%;
@@ -639,7 +636,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
     line-height: 16px;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content2 .talk2::after{
+.about .about-wrap .web-introduce .web-content-wrap .content2 .talk2::after{
     content: "";
     width: 14px;
     height: 14px;
@@ -652,7 +649,7 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content2 .talk3{
+.about .about-wrap .web-introduce .web-content-wrap .content2 .talk3{
     height: 20px;
     background-color: #abc3b7;
     width: 40%;
@@ -668,24 +665,24 @@ top: 74%; left: 50%; transform: translateX(-50%); z-index: 999;}
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content2 .talk3 p{
+.about .about-wrap .web-introduce .web-content-wrap .content2 .talk3 p{
     color: #fff;
     font-size: 16px;
 
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content2 .talk3:hover{
+.about .about-wrap .web-introduce .web-content-wrap .content2 .talk3:hover{
 background-color: #65659b;
 transition: 0.9s;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content2 .talk3:hover::after{
+.about .about-wrap .web-introduce .web-content-wrap .content2 .talk3:hover::after{
     background-color: #65659b;
     transition: 0.9s
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content2 .talk3::after{
+.about .about-wrap .web-introduce .web-content-wrap .content2 .talk3::after{
     content: "";
     width: 15px;
     height: 15px;
@@ -698,7 +695,7 @@ transition: 0.9s;
 
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content3{
+.about .about-wrap .web-introduce .web-content-wrap .content3{
     width: 50%;
     height: 12vw;
     padding-left: 4.7%;
@@ -706,7 +703,7 @@ transition: 0.9s;
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content3 .text-wrap{
+.about .about-wrap .web-introduce .web-content-wrap .content3 .text-wrap{
     width: 90%;
     height: 160px;
     color: #787777;
@@ -715,7 +712,7 @@ transition: 0.9s;
     border-radius: 20px;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content3 span{
+.about .about-wrap .web-introduce .web-content-wrap .content3 span{
     color: #787777;
     display: block;
     font-weight: 600;
@@ -724,12 +721,12 @@ transition: 0.9s;
     font-size: 16px;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content3 .text-wrap span:nth-child(1){
+.about .about-wrap .web-introduce .web-content-wrap .content3 .text-wrap span:nth-child(1){
     padding-top: 20px;
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content3 p{
+.about .about-wrap .web-introduce .web-content-wrap .content3 p{
     color: #383858;
     font-size: 19px;
     font-weight:800;
@@ -747,7 +744,7 @@ transition: 0.9s;
 
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content4 .text-wrap{
+.about .about-wrap .web-introduce .web-content-wrap .content4 .text-wrap{
     width: 96%;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.2);
@@ -755,7 +752,7 @@ transition: 0.9s;
     height: 160px;
 }   
 
-.about .about-wrap .web-introduce .conetent-wrap .content4 .text-wrap span{
+.about .about-wrap .web-introduce .web-content-wrap .content4 .text-wrap span{
     color: #787777;
     display: block;
     font-weight: 600;
@@ -763,7 +760,7 @@ transition: 0.9s;
     font-size: 16px;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content4 p{
+.about .about-wrap .web-introduce .web-content-wrap .content4 p{
     margin-bottom: 5px;
     margin-top: 5px;
     color: #383858;
@@ -772,7 +769,7 @@ transition: 0.9s;
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content4 .text-wrap span:nth-of-type(1){
+.about .about-wrap .web-introduce .web-content-wrap .content4 .text-wrap span:nth-of-type(1){
     padding-top: 20px;
 
 } 
@@ -1336,49 +1333,49 @@ transition: 0.9s;
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap{
+.about .about-wrap .web-introduce .web-ontent-wrap{
     margin-left: 0;
     width: 90%;
     margin: 0 auto;
     margin-top: 30px;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .wep-main{
+.about .about-wrap .web-introduce .web-content-wrap .web-main{
     width: 100%;
     height: 10%;
 }
-.about .about-wrap .web-introduce .conetent-wrap .wep-main img{
+.about .about-wrap .web-introduce .web-content-wrap .web-main img{
     width: 100%;
     height: 100px;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .wep-main span{
+.about .about-wrap .web-introduce .web-content-wrap .web-main span{
     font-size: 26px;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content1 {
+.about .about-wrap .web-introduce .web-content-wrap .content1 {
     order: 1;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content4{
+.about .about-wrap .web-introduce .web-content-wrap .content4{
     order: 2;
 }
  
 
-.about .about-wrap .web-introduce .conetent-wrap .content3{
+.about .about-wrap .web-introduce .web-content-wrap .content3{
     order: 3;
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content2{
+.about .about-wrap .web-introduce .web-content-wrap .content2{
     display: none;
 }
 
-.about .about-wrap .content-wrap{
+.about .about-wrap .web-content-wrap{
     display: none;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .wep-main span{
+.about .about-wrap .web-introduce .web-content-wrap .web-main span{
     width: 70%;
     top: 30%;
     left: 50%;
@@ -1388,25 +1385,25 @@ transition: 0.9s;
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content1{
+.about .about-wrap .web-introduce .web-content-wrap .content1{
     width: 100%;
     height: 100%;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content1 p{
+.about .about-wrap .web-introduce .web-content-wrap .content1 p{
     font-size: 20px;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap{
+.about .about-wrap .web-introduce .web-content-wrap .content1 .text-wrap{
     width: 95%;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap span{
+.about .about-wrap .web-introduce .web-content-wrap .content1 .text-wrap span{
     font-size: 14px;
 }
 
 
- .about .about-wrap .web-introduce .conetent-wrap .content1{
+ .about .about-wrap .web-introduce .web-content-wrap .content1{
     width: 50%;
     padding-left: 0;
  }
@@ -1417,36 +1414,36 @@ transition: 0.9s;
     padding-left: 0px;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content4 .text-wrap{
+.about .about-wrap .web-introduce .web-content-wrap .content4 .text-wrap{
     width: 95%;
 }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content4 .text-wrap span{
+.about .about-wrap .web-introduce .web-content-wrap .content4 .text-wrap span{
     font-size: 14px;
 }
 
 
- .about .about-wrap .web-introduce .conetent-wrap .content4 p{
+ .about .about-wrap .web-introduce .web-content-wrap .content4 p{
      font-size: 20px;
      margin-bottom: 5px;
          font-weight: 800;
     margin-top: 20px;
  }
-.about .about-wrap .web-introduce .conetent-wrap .content3{
+.about .about-wrap .web-introduce .web-content-wrap .content3{
     width: 100%;
     height: 100%;
     padding-left: 0;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .content3 .text-wrap{
+.about .about-wrap .web-introduce .web-content-wrap .content3 .text-wrap{
     width: 100%;
     height: 100%;
     padding-bottom: 5%;
 
 }
 
- .about .about-wrap .web-introduce .conetent-wrap .content3 p{
+ .about .about-wrap .web-introduce .web-content-wrap .content3 p{
     font-size: 20px;
     font-size: 20px;
     margin-bottom: 5px;
@@ -1455,7 +1452,7 @@ transition: 0.9s;
  }
 
 
-.about .about-wrap .web-introduce .conetent-wrap .content3 .text-wrap span{
+.about .about-wrap .web-introduce .web-content-wrap .content3 .text-wrap span{
     font-size: 14px;
 }
 
@@ -1590,59 +1587,59 @@ transition: 0.9s;
     }
 
 
-    .about .about-wrap .web-introduce .conetent-wrap .wep-main{
+    .about .about-wrap .web-introduce .web-content-wrap .web-main{
         margin-top: 10px;
     }
 
 
 
     
-    .about .about-wrap .web-introduce .conetent-wrap .wep-main span{
+    .about .about-wrap .web-introduce .web-content-wrap .web-main span{
         margin-top: 13px;
         font-size: 13px;
     }
 
-    .about .about-wrap .web-introduce .conetent-wrap .content1 p{
+    .about .about-wrap .web-introduce .web-content-wrap .content1 p{
         font-size: 13px;
     }
 
-    .about .about-wrap .web-introduce .conetent-wrap .content3 p{
+    .about .about-wrap .web-introduce .web-content-wrap .content3 p{
         font-size: 13px;
     }
 
-    .about .about-wrap .web-introduce .conetent-wrap .content4 p{
+    .about .about-wrap .web-introduce .web-content-wrap .content4 p{
         font-size: 13px;
     }
     
 
-.about .about-wrap .web-introduce .conetent-wrap .wep-main img{
+.about .about-wrap .web-introduce .web-content-wrap .web-main img{
     width: 100%;
     height: 100px;
 }
 
-.about .about-wrap .web-introduce .conetent-wrap .wep-main span{
+.about .about-wrap .web-introduce .web-content-wrap .web-main span{
         top: 22%;
 
 }
 
-    .about .about-wrap .web-introduce .conetent-wrap .content4 .text-wrap span{
+    .about .about-wrap .web-introduce .web-content-wrap .content4 .text-wrap span{
         font-size: 11px;
         padding-left: 10px;
     }
 
-    .about .about-wrap .web-introduce .conetent-wrap .content3 .text-wrap span{
+    .about .about-wrap .web-introduce .web-content-wrap .content3 .text-wrap span{
         font-size: 11px;
         padding-left: 10px;
     }
 
 
-    .about .about-wrap .web-introduce .conetent-wrap .content1 .text-wrap span{
+    .about .about-wrap .web-introduce .web-content-wrap .content1 .text-wrap span{
         font-size: 11px;
         padding-left: 10px;
     }
 
     
-    .about .about-wrap .web-introduce .conetent-wrap .content3 span{
+    .about .about-wrap .web-introduce .web-content-wrap .content3 span{
         font-size: 11px;
     }
 
