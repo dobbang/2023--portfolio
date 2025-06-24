@@ -1333,7 +1333,12 @@ transition: 0.9s;
 }
 
 
-.about .about-wrap .web-introduce .web-ontent-wrap{
+.about .about-wrap .phone-content-wrap{
+    display: none;
+}
+
+    
+.about .about-wrap .web-introduce .web-content-wrap{
     margin-left: 0;
     width: 90%;
     margin: 0 auto;
@@ -1454,11 +1459,6 @@ transition: 0.9s;
 
 .about .about-wrap .web-introduce .web-content-wrap .content3 .text-wrap span{
     font-size: 14px;
-}
-
-
-.about .flex{
-    display: none;
 }
 
 
