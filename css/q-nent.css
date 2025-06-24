@@ -335,7 +335,7 @@ html{font-size: 62.5%}
 .header-wrap .header-left .main-nav .submenu .list li{
     width: 25%;
     margin-top: 13px;
-;}
+}
 
 .header-wrap .header-left .main-nav .submenu .sub-submenu-text li a:hover{
    text-decoration: underline;
@@ -407,7 +407,7 @@ html{font-size: 62.5%}
 }
 
 
-.main .main-wrap .main-wrap-cont .main-slider .silde-text{
+.main .main-wrap .main-wrap-cont .swiper-slide .slide-text{
     width: 430px;
     height: 65px;
     background-color: #043255;
@@ -418,7 +418,7 @@ html{font-size: 62.5%}
 
 }
 
-.main .main-wrap .main-wrap-cont .main-slider .silde-text a{
+.main .main-wrap .main-wrap-cont .swiper-slide .slide-text a{
     text-align: center;
     width: 330px;
     display: block;
@@ -850,13 +850,13 @@ html{font-size: 62.5%}
     justify-content: center
 }
 
-.main .main-wrap .site-content .site-content-wrap .site-cotent-box{
+.main .main-wrap .site-content .site-content-wrap .site-content-box{
     width: 45%;
 
 }
 
 
-.main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap{
+.main .main-wrap .site-content .site-content-wrap .site-content-box .site-content-box-wrap{
     width: 90%;
     height: 110px;
     background-color: #fff;
@@ -871,7 +871,7 @@ html{font-size: 62.5%}
 
 
 
-.main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap:hover{
+.main .main-wrap .site-content .site-content-wrap .site-content-box .site-content-box-wrap:hover{
     background-image: linear-gradient(#fff, #fff),linear-gradient(104.25deg, #4cbdf2 30.52%, #043255 102.67%);
     background-origin: border-box;
     background-clip: content-box,border-box;
@@ -882,29 +882,29 @@ html{font-size: 62.5%}
 
 
 
-.main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap i{
+.main .main-wrap .site-content .site-content-wrap .site-content-box .site-content-box-wrap i{
     color: #d8d8d8;
 }
 
-.main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap:hover i{
+.main .main-wrap .site-content .site-content-wrap .site-content-box .site-content-box-wrap:hover i{
     color: #043255;
 }
 
-.main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap a{
+.main .main-wrap .site-content .site-content-wrap .site-content-box .site-content-box-wrap a{
     display: block;
     margin-left: 60px;
     font-size: 1.7rem;
 }
 
 
-.main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap a:nth-of-type(1) {
+.main .main-wrap .site-content .site-content-wrap .site-content-box .site-content-box-wrap a:nth-of-type(1) {
     padding-top: 30px;
     font-size: 2rem;
     margin-bottom: 5px;
     font-weight: 600;
 }
 
-.main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap p{
+.main .main-wrap .site-content .site-content-wrap .site-content-box .site-content-box-wrap p{
     float: right;
     margin-right: 50px;
     font-size: 2.5rem;
@@ -1435,7 +1435,7 @@ input[type=text]:focus{
     }
 
         
-    .main .main-wrap .main-wrap-cont .main-slider .silde-text{
+    .main .main-wrap .main-wrap-cont .main-slider .slide-text{
         display: none;
 
     }
@@ -1530,7 +1530,7 @@ input[type=text]:focus{
     }
 
 
-    .main .main-wrap .site-content .site-content-wrap .site-cotent-box{
+    .main .main-wrap .site-content .site-content-wrap .site-content-box{
         width: 100%;
 
     }
@@ -1929,16 +1929,16 @@ input[type=text]:focus{
         }
 
         
-        .main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap i{
+        .main .main-wrap .site-content .site-content-wrap .site-content-box .site-content-box-wrap i{
             font-size: 1.5rem;
         }
 
         
-        .main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap a{
+        .main .main-wrap .site-content .site-content-wrap .site-content-box .site-content-box-wrap a{
             font-size: 1.3rem;
         }
 
-        .main .main-wrap .site-content .site-content-wrap .site-cotent-box .site-cotent-box-wrap a:nth-of-type(1){
+        .main .main-wrap .site-content .site-content-wrap .site-content-box .site-content-box-wrap a:nth-of-type(1){
             font-size: 1.6em;
         }
         .footer .footer-wrap .top-footer ul> li a{
