@@ -1301,9 +1301,11 @@ transition: 0.9s;
 @media screen and (max-width: 1023px){
 	
 
- .nav .nav-wrap{
-     width: 100%;
-    }
+
+.nav .nav-wrap{
+    width: 100%;
+}
+
 
 .main .floating1,
 .main .floating2{
@@ -1317,6 +1319,12 @@ transition: 0.9s;
     top: 0%;
     display: block;
 }
+
+.main .back-wrap{
+    background-color: #4b4b4b;
+}
+
+
 
 .about {
     height: 160%;
@@ -1586,29 +1594,31 @@ transition: 0.9s;
         width: 90%;
     }
 
-
-    .about .about-wrap .web-introduce .web-content-wrap .web-main{
-        margin-top: 10px;
-    }
-
+         .about {
+            padding: 100px 0 ;
+         }
 
 
+.about .about-wrap .web-introduce {
+    padding-bottom: 30%;
+}
     
     .about .about-wrap .web-introduce .web-content-wrap .web-main span{
+
         margin-top: 13px;
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .about .about-wrap .web-introduce .web-content-wrap .content1 p{
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .about .about-wrap .web-introduce .web-content-wrap .content3 p{
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .about .about-wrap .web-introduce .web-content-wrap .content4 p{
-        font-size: 13px;
+        font-size: 16px;
     }
     
 
@@ -1622,21 +1632,38 @@ transition: 0.9s;
 
 }
 
+.about .about-wrap .web-introduce .web-content-wrap .content1,
+.about .about-wrap .web-introduce .web-content-wrap .content4{
+    width: 100%;
+}
+
+
+.about .about-wrap .web-introduce .web-content-wrap .content4 .text-wrap,
+.about .about-wrap .web-introduce .web-content-wrap .content1 .text-wrap{
+     width: 100%;
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+
     .about .about-wrap .web-introduce .web-content-wrap .content4 .text-wrap span{
-        font-size: 11px;
+        font-size: 13px;
         padding-left: 10px;
     }
 
     .about .about-wrap .web-introduce .web-content-wrap .content3 .text-wrap span{
-        font-size: 11px;
+        font-size: 13x;
         padding-left: 10px;
     }
 
 
     .about .about-wrap .web-introduce .web-content-wrap .content1 .text-wrap span{
-        font-size: 11px;
+        font-size: 13px;
         padding-left: 10px;
     }
+
+    
+
 
     
     .about .about-wrap .web-introduce .web-content-wrap .content3 span{

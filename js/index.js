@@ -135,27 +135,6 @@ floatingObject('.floating5', 0.0 , 5)
 
 
 
-const swiper = new Swiper(".clonecoding", {
-  slidesPerView: 3,
-  spaceBetween: 20,
-  pagination : true,
-  pagination: {   //페이징 사용자 설정
-		el: ".swiper-pagination",   //페이징 태그 클래스 설정 
-		type : 'fraction'
-	},
-  breakpoints:{
-    100:{slidesPerView:1, spaceBetween: 20},
-    640:{slidesPerView:2, spaceBetween: 40},
-    1024:{slidesPerView:3},
-    1400:{slidesPerView:4}
-  }
- 
-
-
-
-});
-
-
 })
     
 
